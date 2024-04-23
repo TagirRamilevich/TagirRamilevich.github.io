@@ -1,3 +1,26 @@
 theme: jekyll-theme-minimal
 title: Practical NLP homepage
 description: to be added
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  posts:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+permalink: pretty
+
+paginate: 5
