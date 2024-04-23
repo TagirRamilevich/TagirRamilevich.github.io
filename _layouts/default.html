@@ -24,24 +24,27 @@
         .diagonal-gradient {
             background: linear-gradient(to bottom right, blue, pink);
         }
-        
+
         .main-container {
             display: flex;
-            flex-grow: 1; 
+            flex-grow: 1; /* Растягиваем на все доступное пространство */
         }
 
         .sidebar {
             background-color: #f4f4f4;
             padding: 20px;
-            width: 250px; 
+            width: 250px; /* Установите ширину по вашему вкусу */
         }
 
         .content {
-            flex-grow: 1;
+            flex-grow: 1; /* Контент будет занимать оставшееся пространство */
             padding: 20px;
-            background-color: #fff; 
+            background-color: #fff; /* Цвет фона для контента */
         }
 
+        footer {
+            margin-top: auto;
+        }
 
     </style>
 </head>
