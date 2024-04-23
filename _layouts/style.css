@@ -29,7 +29,6 @@ header {
     flex-grow: 1;
     padding: 20px;
     background-color: #fff; /* Цвет фона для контента */
-    overflow: auto; /* Добавляет прокрутку, если контент выходит за рамки */
 }
 
 footer {
