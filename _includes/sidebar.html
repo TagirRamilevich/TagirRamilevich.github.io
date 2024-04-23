@@ -1,22 +1,29 @@
 <div class="sidebar">
-    <h3>Navigation</h3>
+    <h3>Информация о портале</h3>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About Me</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/">Главная страница</a></li>
     </ul>
-    <h3>Categories</h3>
+    <h3>Курс</h3>
     <ul>
-        <li><a href="/category/technology/">Technology</a></li>
-        <li><a href="/category/travel/">Travel</a></li>
-        <li><a href="/category/food/">Food</a></li>
+        <li><a href="/course/plan/"></a>План курса</li>
+        <li><a href="/course/materials/">Материал по темам</a></li>
+        <li><a href="/course/articles/">Научные статьи по темам</a></li>
+        <li><a href="/course/tasks/">Задачи внутри глав</a></li>
+        <li><a href="/course/homework/">Домашние задания</a></li>
+        <li><a href="/course/projects/">Проекты</a></li>
     </ul>
-    <h3>Recent Posts</h3>
+    <h3>Дополнительный материал</h3>
     <ul>
-        {% for post in site.posts limit:5 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
+        <li><a href="/extra_material/research_papers/">Научные статьи</a></li>
+        <li><a href="/extra_material/company_cases/">Кейсы компаний</a></li>
+        <li><a href="/extra_material/kaggle_competitions/">Разборы Kaggle соревнований</a></li>
+        <li><a href="/extra_material/practice_resources/">Ресурсы для практики (Kaggle)</a></li>
+        <li><a href="/extra_material/it_roadmap/">Roadmap IT специалиста</a></li>
+        <li><a href="/extra_material/job_search_resources/">Ресурсы для поиска работы</a></li>
+        <li><a href="/extra_material/job_search_articles/">Статьи для поиска работы</a></li>
+        <li><a href="/extra_material/meetups_and_conferences/">Выступления и конференции</a></li>
+        <li><a href="/extra_material/channels/">Каналы</a></li>
+        <li><a href="/extra_material/vlogs/">Блоги</a></li>
     </ul>
 </div>
 
