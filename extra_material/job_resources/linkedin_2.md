@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Для чего нужен профиль в LinkedIn
+title: Как найти работу с помощью LinkedIn
 ---
 
 **Как найти работу с помощью LinkedIn?**
