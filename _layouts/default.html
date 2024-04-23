@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-        </nav>
-    </header>
 
-    <div class="content">
-        {{ content }}
-    </div>
+    <section class="hero">
+        <h1>Some text</h1>
+        <p>Some text</p>
+    </section>
 
-    <aside>
-        {% include sidebar.html %}
-    </aside>
+    <section class="features">
+        <div class="feature">
+            <h2>Feature 1</h2>
+            <p>Some text</p>
+        </div>
+        <div class="feature">
+            <h2>Some text</h2>
+            <p>Some text</p>
+        </div>
+        <div class="feature">
+            <h2>Some text</h2>
+            <p>Some text</p>
+        </div>
+    </section>
 
     <footer>
-        &copy; {{ site.author }} - {{ site.year }}
+        <p>&copy; Some text</p>
     </footer>
 </body>
-</html>
 
+</html>
