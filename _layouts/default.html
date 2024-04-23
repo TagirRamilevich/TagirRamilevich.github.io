@@ -15,40 +15,37 @@
             min-height: 100vh;
         }
 
-        .diagonal-gradient {
-            background: linear-gradient(to bottom right, blue, pink);
-        }
-
-        header, .sidebar, footer {
+        header {
+            background-color: #333;
             color: white;
             padding: 10px 20px;
             text-align: center;
         }
 
-        header {
-            background-color: #333;
-        }
-
         .main-container {
             display: flex;
-            flex-grow: 1; /* Растягиваем на все доступное пространство */
+            flex-grow: 1; 
         }
 
         .sidebar {
-            width: 250px; /* Установите ширину по вашему вкусу */
+            background-color: #f4f4f4;
             padding: 20px;
+            width: 250px; 
         }
 
         .content {
-            flex-grow: 1; /* Контент будет занимать оставшееся пространство */
+            flex-grow: 1;
             padding: 20px;
-            background-color: #fff; /* Цвет фона для контента */
+            background-color: #fff; 
         }
 
         footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
             margin-top: auto;
         }
-        
     </style>
 </head>
 
