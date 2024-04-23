@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/course/plan/">Course Plan</a></li>
+                <li><a href="/additional_material/articles/">Additional Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <aside>
+        {% include sidebar.html %}
+    </aside>
+
+    <footer>
+        &copy; {{ site.author }} - {{ site.year }}
+    </footer>
+</body>
+</html>
 
