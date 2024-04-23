@@ -2,21 +2,78 @@ body {
     font-family: "Gill Sans", sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     background-color: #333;
     color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 250px; /* Установите ширину по вашему вкусу */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff; /* Цвет фона для контента */
+    overflow: auto; /* Добавляет прокрутку, если контент выходит за рамки */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
     padding: 10px;
+    margin-top: auto;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block; /* делает ссылки блочными элементами, удобнее для клика */
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Дополнительные стили, если нужно */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block; /* Для кнопок, если они используются */
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
 
 .hero {
@@ -24,13 +81,6 @@ nav ul li {
     text-align: center;
     padding: 50px;
     color: #fff;
-}
-
-.btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
 }
 
 .features {
@@ -42,36 +92,3 @@ nav ul li {
 .feature {
     text-align: center;
 }
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-
-.sidebar {
-    background-color: #f4f4f4;
-    padding: 20px;
-}
-
-.sidebar nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar nav ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.sidebar nav ul li a:hover {
-    color: #007bff;
-}
-
