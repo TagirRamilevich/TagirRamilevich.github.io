@@ -32,8 +32,7 @@ Kaggle по праву считается одним из лучших ресу�
 3. Еще один полный гайд на NLP чуть более высокого уровня:  
 <a href="https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained">NLP 📝 GloVe, BERT, TF-IDF, LSTM... 📝 Explained</a>
 4. Гайд на предобработку языкового материала перед использованием в эмбеддингах:  
-<a href="https://www.kaggle.com/code/christofhenkel/how-to-preprocessing-when-using-embeddings">How to: Preprocessing when using embeddings</a>
-
+<a href="https://www.kaggle.com/code/christofhenkel/how-to-preprocessing-when-using-embeddings">How to: Preprocessing when using embeddings</a>  
 
 - Также есть прекрасное видео, объясняющее логику подхода к любому проекту на Kaggle, оно подскажет, как можно начать работу с любой прикладной задачей.  
 <a href="https://www.youtube.com/watch?v=Jn8c3oe_GWU">Kaggle Live-Coding: Scoping & Starting an NLP Project | Kaggle</a>
