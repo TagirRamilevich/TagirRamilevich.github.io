@@ -27,9 +27,9 @@ title: Выступления на митапах и конференциях
 - <a href="https://www.youtube.com/watch?v=Cho7kM2IxHk">Переводчик с языка, на котором нельзя говорить и писать</a>  
 Еще один доклад про жестовые языки от сбера.
 - <a href="https://github.com/soulbliss/NLP-conference-compendium?ysclid=lvbvb79r3u631484259">NLP top 10 conferences Compendium</a>  
-Это не совсем запись, но это обзор на работы главной nlp конференции мира, рассказывающий, какие работы стоят прочтения. К сожалению, данный гитхаб перестал обновляться.
+Это не совсем запись, но это обзор на работы главной NLP конференции мира, рассказывающий, какие работы стоят прочтения. К сожалению, данный гитхаб перестал обновляться.
 - <a href="https://www.youtube.com/watch?v=MIq8x7FlsEw&t=23759s">YaTalks 2023: Разработка и эксплуатация</a>  
-9 часов докладов яндекса. Некоторые из них посвящены nlp.
+9 часов докладов яндекса. Некоторые из них посвящены NLP.
 - <a href="https://www.youtube.com/watch?v=TBxt2Bz65GM">State of the LLM Landscape</a>  
 Очень сильные доклады от сиолошной.
 - <a href="https://www.youtube.com/watch?v=iOrNbK2T92M">Transformer, explained in detail</a>  
@@ -37,4 +37,4 @@ title: Выступления на митапах и конференциях
 - <a href="https://www.youtube.com/watch?v=SwfzebRc1ZU">Tinkoff AI. NLP</a>  
 Запись митапа тинькофф.
 - <a href="https://ods.ai/tracks/sibfest3-nlp?ysclid=lvd9rrj75v83063028">NLP Data Fest Siberia 3</a>  
-Записи докладов только по nlp с крутой конференции.
+Записи докладов только по NLP с крутой конференции.
