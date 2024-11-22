@@ -421,7 +421,7 @@ Text preprocessing involves transforming raw text into a clean and analyzable fo
 ---
 
 
-#### **2.2.2 Advanced Preprocessing Techniques**
+#### **3.2.2 Advanced Preprocessing Techniques**
 
 **1. Text Standardization**
 
