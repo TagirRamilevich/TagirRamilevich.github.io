@@ -417,3 +417,116 @@ Text preprocessing involves transforming raw text into a clean and analyzable fo
 
     text = emoji.demojize(text)
     ```
+
+---
+
+
+#### **2.2.2 Advanced Preprocessing Techniques**
+
+**1. Text Standardization**
+
+- Correct common misspellings, expand contractions (e.g., "don't" → "do not").
+    
+    ```python
+    from contractions import fix
+    text = fix("I don't think so.")  # Output: "I do not think so."
+    ```
+
+**2. Spelling Correction**
+
+- Use libraries like `TextBlob` or `pyspellchecker`.
+    
+    ```python
+    from textblob import TextBlob
+    text = str(TextBlob(text).correct())
+    ```
+
+**3. Part-of-Speech (POS) Tagging**
+
+- Assign grammatical categories (e.g., noun, verb) to words.
+    
+    ```python
+    doc = nlp(text)
+    pos_tags = [(token.text, token.pos_) for token in doc]
+    print(pos_tags)
+    ```
+
+**4. Named Entity Recognition (NER)**
+
+- Identify and classify named entities in text (e.g., persons, organizations).
+    
+    ```python
+    entities = [(ent.text, ent.label_) for ent in doc.ents]
+    print(entities)
+    ```
+
+**5. Removing Rare Words or Frequent Words**
+
+- Remove words that appear too infrequently or too frequently.
+    
+    ```python
+    from collections import Counter
+    word_counts = Counter(word_tokens)
+    rare_words = [word for word in word_counts if word_counts[word] == 1]
+    ```
+
+---
+
+#### **3.2.3 Practical Examples with Code**
+
+**Example 1: Full Preprocessing Pipeline**
+
+```python
+import re
+import nltk
+import string
+import spacy
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+# Initialize tools
+stop_words = set(stopwords.words('english'))
+lemmatizer = WordNetLemmatizer()
+nlp = spacy.load('en_core_web_sm')
+
+# Sample text
+text = "The NLP course starts soon! Visit http://example.com for details. Contact us at info@example.com 😊."
+
+# 1. Lowercasing
+text = text.lower()
+
+# 2. Removing URLs and Emails
+text = re.sub(r'http\S+|www.\S+', '', text)
+text = re.sub(r'\S+@\S+', '', text)
+
+# 3. Removing Emojis
+emoji_pattern = re.compile(
+    "[" 
+    u"\U0001F600-\U0001F64F"  # emoticons
+    u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+    u"\U0001F680-\U0001F6FF"  # transport & map symbols
+    u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+    "]+", flags=re.UNICODE
+)
+text = emoji_pattern.sub(r'', text)
+
+# 4. Removing Punctuation
+text = text.translate(str.maketrans('', '', string.punctuation))
+
+# 5. Tokenization
+word_tokens = nltk.word_tokenize(text)
+
+# 6. Removing Stopwords
+filtered_tokens = [word for word in word_tokens if word not in stop_words]
+
+# 7. Lemmatization
+lemmatized_tokens = [lemmatizer.lemmatize(word) for word in filtered_tokens]
+
+print("Original Text:", text)
+print("Filtered Tokens:", filtered_tokens)
+print("Lemmatized Tokens:", lemmatized_tokens)
+```
