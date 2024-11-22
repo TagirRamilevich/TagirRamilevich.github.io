@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chapter 1: Introduction to NLP
+title: "Chapter 1: Introduction to NLP"
 ---
 
 # Chapter 1: Introduction to NLP
