@@ -95,3 +95,41 @@ Text data comes in various formats, each suited for different types of data repr
     ```
 
 ---
+
+#### **3.1.2 Text Encoding**
+
+Text encoding is a method of converting text data into a form that can be easily stored and transmitted by computers.
+
+**Common Encodings:**
+
+- **UTF-8 (Unicode Transformation Format - 8-bit):**
+    
+    - **Description:** Supports all Unicode characters, making it suitable for multilingual text.
+    - **Advantages:** Backward compatible with ASCII, efficient for English text, and standard on the web.
+    - **Usage Tip:** Recommended for most applications to avoid encoding issues.
+- **ASCII (American Standard Code for Information Interchange):**
+    
+    - **Description:** Encodes 128 specified characters into seven-bit integers.
+    - **Limitations:** Only supports basic English characters, no support for accents or other languages.
+- **ISO-8859-1 (Latin-1):**
+    
+    - **Description:** Supports Western European languages.
+    - **Limitations:** Insufficient for texts containing characters from multiple languages.
+
+**Common Encoding Issues:**
+
+- **UnicodeDecodeError:** Occurs when a byte sequence does not match the expected encoding.
+- **Mojibake:** Garbled text resulting from decoding text with the wrong encoding.
+
+**Practical Tips:**
+
+- Always specify the encoding when reading or writing files in Python.
+- Use `encoding='utf-8'` unless you have a specific reason not to.
+
+**Example: Reading a File with Specified Encoding**
+    
+    ```python
+    file_path = 'data/sample.txt'
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    ```
