@@ -203,51 +203,27 @@ Introduced by Vaswani et al. in 2017, transformers rely entirely on self-attenti
 **Objective:**
 
 - Learn how to convert text documents into BoW vectors.
-- Use scikit-learn's `CountVectorizer`.
+- Understand how to use scikit-learn's `CountVectorizer`.
 
 **Instructions:**
 
-1. **Import necessary libraries:**
+1. **Create a small corpus of text documents.** For example, you can use a list of sentences or short paragraphs relevant to a topic of your choice.
+        
+2. **Initialize a `CountVectorizer`** from scikit-learn.
+        
+3. **Fit the `CountVectorizer` to your corpus** and transform the text data into BoW vectors.
+        
+4. **Examine the resulting vocabulary** and the BoW representation of your documents.
+        
+5. **Reflect on the BoW model:**
+        
+    - How does the BoW representation handle word order?
+    - What are the limitations of this representation?
     
-    ```python
-    from sklearn.feature_extraction.text import CountVectorizer
-    import pandas as pd
-    ```
-    
-2. **Prepare a small corpus:**
-    
-    ```python
-    corpus = [
-        'I love natural language processing',
-        'Language processing is fun',
-        'Natural language processing allows computers to understand human language',
-        'I enjoy learning new things in NLP'
-    ]
-    ```
-    
-3. **Create a `CountVectorizer` instance and fit it to the corpus:**
-    
-    ```python
-    vectorizer = CountVectorizer()
-    X = vectorizer.fit_transform(corpus)
-    ```
-    
-4. **View the vocabulary:**
-    
-    ```python
-    print("Vocabulary:", vectorizer.vocabulary_)
-    ```
-    
-5. **Convert BoW vectors to a DataFrame for better visualization:**
-    
-    ```python
-    df_bow = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
-    print(df_bow)
-    ```
-    
-**Expected Output:**
+**Hints:**
 
-A DataFrame showing the count of each word in each document.
+- Refer to the scikit-learn documentation for `CountVectorizer` for guidance on its usage.
+- Consider printing out the vocabulary and the transformed vectors to better understand the output.
 
 ---
 
@@ -255,43 +231,29 @@ A DataFrame showing the count of each word in each document.
 
 **Objective:**
 
-- Learn how to compute TF-IDF scores.
-- Use scikit-learn's `TfidfVectorizer`.
+- Learn how to compute TF-IDF scores for your text corpus.
+- Understand the impact of TF-IDF weighting compared to simple term counts.
 
 **Instructions:**
 
-1. **Import necessary libraries:**
+1. **Use the same corpus from Practice Task 1** or create a new one.
+        
+2. **Initialize a `TfidfVectorizer`** from scikit-learn.
+        
+3. **Fit the `TfidfVectorizer` to your corpus** and transform the text data into TF-IDF vectors.
+        
+4. **Analyze the TF-IDF scores:**
+        
+    - Which words have higher TF-IDF scores?
+    - How do the TF-IDF scores compare to the term frequencies in the BoW model?
     
-    ```python
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    import pandas as pd
-    ```
+5. **Consider how TF-IDF weighting addresses some limitations of the BoW model.**
+        
     
-2. **Use the same corpus as before.**
-    
-3. **Create a `TfidfVectorizer` instance and fit it to the corpus:**
-    
-    ```python
-    vectorizer = TfidfVectorizer()
-    X = vectorizer.fit_transform(corpus)
-    ```
-    
-4. **View the feature names:**
-    
-    ```python
-    print("Feature Names:", vectorizer.get_feature_names_out())
-    ```
-    
-5. **Convert TF-IDF vectors to a DataFrame:**
-    
-    ```python
-    df_tfidf = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
-    print(df_tfidf)
-    ```
-    
-**Expected Output:**
+**Hints:**
 
-A DataFrame showing the TF-IDF score of each word in each document.
+- The scikit-learn documentation for `TfidfVectorizer` provides examples and explanations.
+- You can compare the output of `CountVectorizer` and `TfidfVectorizer` to see the differences.
 
 ---
 
@@ -299,53 +261,37 @@ A DataFrame showing the TF-IDF score of each word in each document.
 
 **Objective:**
 
-- Visualize the most frequent words in the corpus.
-- Use word clouds and bar plots.
+- Visualize the most frequent words in your corpus.
+- Use visualization tools to gain insights into your text data.
 
 **Instructions:**
 
-1. **Generate a word cloud:**
+1. **Aggregate your text data** into a single string or a suitable format for visualization.
+        
+2. **Choose a visualization method:**
+        
+    - **Word Cloud:** Generate a word cloud to display the most frequent words visually.
+    - **Bar Plot:** Create a bar chart showing the frequencies or TF-IDF scores of the top N words.
+        
+3. **Use appropriate Python libraries** for visualization, such as `matplotlib`, `seaborn`, or `wordcloud`.
+        
+4. **Interpret your visualizations:**
+        
+    - What are the most prominent words?
+    - Does the visualization align with your expectations about the corpus?
     
-    ```python
-    from wordcloud import WordCloud
-    import matplotlib.pyplot as plt
+**Hints:**
 
-    # Combine all documents into one text
-    text = ' '.join(corpus)
+- Ensure you preprocess your text data appropriately (e.g., removing stopwords) before visualization.
+- For word clouds, the `wordcloud` library is useful.
+- For bar plots, you might need to extract word frequencies from your BoW or TF-IDF vectors.
 
-    # Generate a word cloud
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+---
 
-    # Display the image
-    plt.figure(figsize=(15, 7.5))
-    plt.imshow(wordcloud, interpolation='bilinear')
-    plt.axis('off')
-    plt.show()
-    ```
-    
-2. **Create a bar plot of word frequencies:**
-    
-    ```python
-    import seaborn as sns
+**Note to Students:**
 
-    # Use the BoW vectors summed over all documents
-    word_freq = X.toarray().sum(axis=0)
-    word_freq_df = pd.DataFrame({'word': vectorizer.get_feature_names_out(), 'count': word_freq})
+These practice tasks are designed to reinforce your understanding of text representation methods. By implementing these tasks on your own, you will gain hands-on experience with transforming and analyzing text data, which is fundamental for NLP tasks. If you encounter any challenges, consider discussing them with your peers or reaching out to your instructor for guidance.
 
-    # Sort by frequency
-    word_freq_df = word_freq_df.sort_values('count', ascending=False)
-
-    # Plot
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x='word', y='count', data=word_freq_df)
-    plt.title('Word Frequencies')
-    plt.show()
-    ```
-    
-**Expected Output:**
-
-- A word cloud image showing the most frequent words larger.
-- A bar plot showing word counts for the most frequent words.
 
 ---
 
