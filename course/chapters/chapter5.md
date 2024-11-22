@@ -262,10 +262,6 @@ Apple ORG U.K. GPE $1 billion MONEY Tim Cook PERSON San Francisco GPE
 
 - The probability of a word depends only on the previous N-1 words.
 
-**Formula:**
-
-- For a trigram model: ( P(w_n | w_{n-2}, w_{n-1}) )
-
 #### 5.3.2 Generating Text Using a Simple N-gram Model
 
 We will build a basic bigram model to generate text.
