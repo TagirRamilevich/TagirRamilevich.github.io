@@ -530,3 +530,96 @@ print("Original Text:", text)
 print("Filtered Tokens:", filtered_tokens)
 print("Lemmatized Tokens:", lemmatized_tokens)
 ```
+
+**Output:**
+
+```python
+Original Text: the nlp course starts soon visit for details contact us at. Filtered Tokens: ['nlp', 'course', 'starts', 'soon', 'visit', 'details', 'contact', 'us'] Lemmatized Tokens: ['nlp', 'course', 'start', 'soon', 'visit', 'detail', 'contact', 'u']
+```
+
+---
+
+#### **Example 2: Preprocessing a Dataset**
+
+Suppose you have a dataset of tweets in a CSV file `tweets.csv` with a column `tweet_text`.
+
+```python
+import pandas as pd
+import re
+import nltk
+import string
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+# Load dataset
+df = pd.read_csv('data/tweets.csv', encoding='utf-8')
+
+# Define preprocessing function
+def preprocess_text(text):
+    # Lowercase
+    text = text.lower()
+    # Remove URLs
+    text = re.sub(r'http\S+|www.\S+', '', text)
+    # Remove mentions
+    text = re.sub(r'@\w+', '', text)
+    # Remove hashtags
+    text = re.sub(r'#\w+', '', text)
+    # Remove punctuation
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    # Tokenization
+    tokens = nltk.word_tokenize(text)
+    # Remove stopwords
+    stop_words = set(stopwords.words('english'))
+    tokens = [word for word in tokens if word not in stop_words]
+    # Lemmatization
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(word) for word in tokens]
+    return ' '.join(tokens)
+
+# Apply preprocessing
+df['clean_text'] = df['tweet_text'].apply(preprocess_text)
+
+print(df[['tweet_text', 'clean_text']].head())
+```
+
+---
+
+#### **3.2.4 Evaluating Preprocessing Techniques**
+
+Different preprocessing techniques may impact model performance differently.
+
+**Considerations:**
+
+- **Task Requirements:**
+    - For sentiment analysis, removing negations like "not" may lead to loss of meaning.
+    - In language modeling, keeping punctuation can be important.
+- **Language Specifics:**
+    - For morphologically rich languages, lemmatization might be more complex.
+    - Stopword lists vary by language.
+- **Computational Resources:**
+    - More complex preprocessing (e.g., POS tagging) requires more processing time.
+
+---
+
+#### **Practice: Preprocessing Tasks**
+
+**Task 1:** Given a paragraph of text, perform the following preprocessing steps:
+
+- Normalize the text (lowercase, remove punctuation).
+- Tokenize the text into sentences, then words.
+- Remove stopwords and perform lemmatization.
+- Print the final list of lemmatized words.
+
+**Task 2:** Create a function `clean_text` that accepts a string and returns a cleaned version of the text using the preprocessing steps discussed.
+
+_Check [Sample Answers](answers/chapter3_practice.md) for insights and examples._
+
+---
+
+### **Conclusion**
+
+By mastering text data handling and preprocessing, you lay a solid foundation for all subsequent NLP tasks. Clean and well-prepared data leads to better models and more accurate results. In the next chapter, we will explore how to represent text data numerically so that machine learning models can process it.
+
+---
+
+Click **Next** to proceed to **Chapter 4: Representing Text**, where you'll learn about transforming text into numerical vectors using techniques like Bag of Words and word embeddings.
