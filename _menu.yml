@@ -1,0 +1,11 @@
+course:
+  - title: "План курса"
+    url: "/course/plan/"
+  - title: "Материал"
+    url: "/course/materials/"
+  - title: "Задачи внутри глав"
+    url: "/course/tasks/"
+  - title: "Домашние задания"
+    url: "/course/homework/"
+  - title: "Проекты"
+    url: "/course/projects/"
