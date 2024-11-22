@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chapter 1: Introduction to the Course"
+title: "Chapter 3: Working with Text Data"
 ---
 
 # **Chapter 3: Working with Text Data**
