@@ -534,7 +534,9 @@ print("Lemmatized Tokens:", lemmatized_tokens)
 **Output:**
 
 ```python
-Original Text: the nlp course starts soon visit for details contact us at. Filtered Tokens: ['nlp', 'course', 'starts', 'soon', 'visit', 'details', 'contact', 'us'] Lemmatized Tokens: ['nlp', 'course', 'start', 'soon', 'visit', 'detail', 'contact', 'u']
+Original Text: the nlp course starts soon visit for details contact us at.
+Filtered Tokens: ['nlp', 'course', 'starts', 'soon', 'visit', 'details', 'contact', 'us']
+Lemmatized Tokens: ['nlp', 'course', 'start', 'soon', 'visit', 'detail', 'contact', 'u']
 ```
 
 ---
