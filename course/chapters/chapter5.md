@@ -264,7 +264,7 @@ Apple ORG U.K. GPE $1 billion MONEY Tim Cook PERSON San Francisco GPE
 
 **Formula:**
 
-- For a trigram model: \( P(w_n | w_{n-2}, w_{n-1}) \)
+- For a trigram model: ( P(w_n | w_{n-2}, w_{n-1}) )
 
 #### 5.3.2 Generating Text Using a Simple N-gram Model
 
