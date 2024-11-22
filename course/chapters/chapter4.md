@@ -290,8 +290,9 @@ Introduced by Vaswani et al. in 2017, transformers rely entirely on self-attenti
 
 **Note to Students:**
 
-These practice tasks are designed to reinforce your understanding of text representation methods. By implementing these tasks on your own, you will gain hands-on experience with transforming and analyzing text data, which is fundamental for NLP tasks. If you encounter any challenges, consider discussing them with your peers or reaching out to your instructor for guidance.
+These practice tasks are designed to reinforce your understanding of text representation methods. By implementing these tasks on your own, you will gain hands-on experience with transforming and analyzing text data, which is fundamental for NLP tasks.
 
+_Check [Sample Answers](answers/chapter4_practice.md) for insights and examples._
 
 ---
 
