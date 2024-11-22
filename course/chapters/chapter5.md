@@ -59,51 +59,42 @@ We will build a simple sentiment analysis model using a machine learning approac
 
 **Example Code:**
 
-    ```python
-    import nltk
-    from nltk.corpus import movie_reviews
-    import random
-    import numpy as np
-    import pandas as pd
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    from sklearn.naive_bayes import MultinomialNB
-    from sklearn.metrics import accuracy_score, classification_report
-    from sklearn.model_selection import train_test_split
-    
-    # Download the movie_reviews corpus
-    nltk.download('movie_reviews')
-    
-    # Load the reviews and labels
-    documents = [(list(movie_reviews.words(fileid)), category)
-                 for category in movie_reviews.categories()
-                 for fileid in movie_reviews.fileids(category)]
-    
-    # Shuffle the documents
-    random.shuffle(documents)
-    
-    # Prepare the data
-    reviews = [" ".join(words) for words, category in documents]
-    labels = [category for words, category in documents]
-    
-    # Split into training and test sets
-    X_train, X_test, y_train, y_test = train_test_split(reviews, labels, test_size=0.2, random_state=42)
-    
-    # Feature extraction using TF-IDF
-    vectorizer = TfidfVectorizer(max_features=2000)
-    X_train_features = vectorizer.fit_transform(X_train)
-    X_test_features = vectorizer.transform(X_test)
-    
-    # Model training using Naive Bayes
-    classifier = MultinomialNB()
-    classifier.fit(X_train_features, y_train)
-    
-    # Predictions
-    y_pred = classifier.predict(X_test_features)
-    
-    # Evaluation
-    print("Accuracy:", accuracy_score(y_test, y_pred))
-    print("Classification Report:\n", classification_report(y_test, y_pred))
-    ```
+```python
+import nltk
+from nltk.corpus import movie_reviews
+import random
+import numpy as np
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import train_test_split
+# Download the movie_reviews corpus
+nltk.download('movie_reviews')
+# Load the reviews and labels
+documents = [(list(movie_reviews.words(fileid)), category)
+             for category in movie_reviews.categories()
+             for fileid in movie_reviews.fileids(category)]
+# Shuffle the documents
+random.shuffle(documents)
+# Prepare the data
+reviews = [" ".join(words) for words, category in documents]
+labels = [category for words, category in documents]
+# Split into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(reviews, labels, test_size=0.2, random_state=42)
+# Feature extraction using TF-IDF
+vectorizer = TfidfVectorizer(max_features=2000)
+X_train_features = vectorizer.fit_transform(X_train)
+X_test_features = vectorizer.transform(X_test)
+# Model training using Naive Bayes
+classifier = MultinomialNB()
+classifier.fit(X_train_features, y_train)
+# Predictions
+y_pred = classifier.predict(X_test_features)
+# Evaluation
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred))
+```
 
 **Output:** 
 
@@ -196,28 +187,24 @@ We will use the spaCy library to perform NER.
 
 **Example Code:**
 
-    ```python
-    import spacy  
-    
-    # Load the pre-trained model
-    nlp = spacy.load('en_core_web_sm')  
-    
-    # Sample text
-    text = "Apple is looking at buying U.K. startup for $1 billion. Tim Cook said in a conference in San Francisco."
-    
-    # Process the text
-    doc = nlp(text)
-    
-    # Print entities
-    for ent in doc.ents:
-        print(ent.text, ent.label_)
-    ```
+```python
+import spacy  
+# Load the pre-trained model
+nlp = spacy.load('en_core_web_sm')  
+# Sample text
+text = "Apple is looking at buying U.K. startup for $1 billion. Tim Cook said in a conference in San Francisco."
+# Process the text
+doc = nlp(text)
+# Print entities
+for ent in doc.ents:
+    print(ent.text, ent.label_)
+```
 
 **Output:**
 
-    ```python
-    Apple ORG U.K. GPE $1 billion MONEY Tim Cook PERSON San Francisco GPE
-    ```
+```python
+Apple ORG U.K. GPE $1 billion MONEY Tim Cook PERSON San Francisco GPE
+```
 
 ---
 
@@ -233,8 +220,8 @@ We will use the spaCy library to perform NER.
     - Use a news article, a Wikipedia page, or write your own paragraph.
 2. **Load the spaCy Model:**
     - Install spaCy and download the English model if you haven't already:
-    
-    ```python
+
+    ```bash
     pip install spacy
     python -m spacy download en_core_web_sm
     ```
@@ -245,7 +232,7 @@ We will use the spaCy library to perform NER.
     - Are all entities correctly identified?
     - Note any misclassifications or missing entities.
 5. **Visualize the Entities (Optional):**
-    
+
     ```python
     from spacy import displacy
     displacy.render(doc, style='ent', jupyter=True)
@@ -285,60 +272,52 @@ We will build a basic bigram model to generate text.
 
 **Example Code:**
 
-    ```python
-    import nltk
-    from nltk.util import ngrams
-    from collections import defaultdict, Counter
-    import random
-    import nltk.data
-    
-    # Load sample text (e.g., Gutenberg corpus)
-    nltk.download('gutenberg')
-    from nltk.corpus import gutenberg
-    
-    # Choose a text
-    text = gutenberg.raw('melville-moby_dick.txt')
-    
-    # Tokenize sentences
-    sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
-    sentences = sent_detector.tokenize(text)
-    
-    # Tokenize words and create bigrams
-    model = defaultdict(lambda: defaultdict(lambda: 0))
-    
-    for sentence in sentences:
-        words = nltk.word_tokenize(sentence.lower())
-        for w1, w2 in ngrams(words, 2):
-            model[w1][w2] += 1
-    
-    # Convert counts to probabilities
-    for w1 in model:
-        total_count = float(sum(model[w1].values()))
-        for w2 in model[w1]:
-            model[w1][w2] /= total_count
-    
-    # Generate text
-    def generate_text(start_word, length=50):
-        text = [start_word]
-        for _ in range(length):
-            w1 = text[-1]
-            if w1 in model:
-                choices = list(model[w1].keys())
-                probs = list(model[w1].values())
-                next_word = random.choices(choices, probs)[0]
-                text.append(next_word)
-            else:
-                break
-        return ' '.join(text)
-    
-    # Generate a text starting with 'whale'
-    generated_text = generate_text('whale')
-    print(generated_text)
-    ```
+```python
+import nltk
+from nltk.util import ngrams
+from collections import defaultdict, Counter
+import random
+import nltk.data
+# Load sample text (e.g., Gutenberg corpus)
+nltk.download('gutenberg')
+from nltk.corpus import gutenberg
+# Choose a text
+text = gutenberg.raw('melville-moby_dick.txt')
+# Tokenize sentences
+sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
+sentences = sent_detector.tokenize(text)
+# Tokenize words and create bigrams
+model = defaultdict(lambda: defaultdict(lambda: 0))
+for sentence in sentences:
+    words = nltk.word_tokenize(sentence.lower())
+    for w1, w2 in ngrams(words, 2):
+        model[w1][w2] += 1
+# Convert counts to probabilities
+for w1 in model:
+    total_count = float(sum(model[w1].values()))
+    for w2 in model[w1]:
+        model[w1][w2] /= total_count
+# Generate text
+def generate_text(start_word, length=50):
+    text = [start_word]
+    for _ in range(length):
+        w1 = text[-1]
+        if w1 in model:
+            choices = list(model[w1].keys())
+            probs = list(model[w1].values())
+            next_word = random.choices(choices, probs)[0]
+            text.append(next_word)
+        else:
+            break
+    return ' '.join(text)
+# Generate a text starting with 'whale'
+generated_text = generate_text('whale')
+print(generated_text)
+```
 
 **Output:**
 
-    `whale . but it is not , and the whale 's spout ? '' '' i have seen him . '' '' and i am not a whale , and the whale 's spout ? '' '' i have seen him .`
+`whale . but it is not , and the whale 's spout ? '' '' i have seen him . '' '' and i am not a whale , and the whale 's spout ? '' '' i have seen him .`
 
 **Note:** The generated text may not be coherent due to the simplicity of the model.
 
@@ -406,34 +385,29 @@ We will use the `transformers` library by Hugging Face to perform machine transl
 
 **Example Code:**
 
-    ```python
-    from transformers import MarianMTModel, MarianTokenizer
-    
-    # Choose model for English to French translation
-    model_name = 'Helsinki-NLP/opus-mt-en-fr'
-    tokenizer = MarianTokenizer.from_pretrained(model_name)
-    model = MarianMTModel.from_pretrained(model_name)
-    
-    # Text to translate
-    text = "Hello, how are you?"
-    
-    # Tokenize text
-    tokens = tokenizer.prepare_seq2seq_batch([text], return_tensors='pt')
-    
-    # Perform translation and decode
-    translated = model.generate(**tokens)
-    translated_text = tokenizer.decode(translated[0], skip_special_tokens=True)
-    
-    print("Original Text:", text)
-    print("Translated Text:", translated_text)
-    ```
+```python
+from transformers import MarianMTModel, MarianTokenizer
+# Choose model for English to French translation
+model_name = 'Helsinki-NLP/opus-mt-en-fr'
+tokenizer = MarianTokenizer.from_pretrained(model_name)
+model = MarianMTModel.from_pretrained(model_name)
+# Text to translate
+text = "Hello, how are you?"
+# Tokenize text
+tokens = tokenizer.prepare_seq2seq_batch([text], return_tensors='pt')
+# Perform translation and decode
+translated = model.generate(**tokens)
+translated_text = tokenizer.decode(translated[0], skip_special_tokens=True)
+print("Original Text:", text)
+print("Translated Text:", translated_text)
+```
 
 **Output:**
 
-    ```python
-    Original Text: Hello, how are you?
-    Translated Text: Bonjour, comment ça va ?
-    ```
+```python
+Original Text: Hello, how are you?
+Translated Text: Bonjour, comment ça va ?
+```
 
 ---
 
