@@ -15,7 +15,7 @@ Welcome to the course plan page. Below is the complete structure of the course w
     - How to navigate through the course.
     - Recommended tools and resources.
 
-1. [Introduction to NLP](../chapters/chapter1.html)
+1. [Introduction to NLP](../chapters/chapter1.md)
     - What is NLP?
     - Applications of NLP.
     - Key stages in text processing.
