@@ -6,12 +6,13 @@ on:
       - main
 
 concurrency:
-  group: deploy-pages
+  group: github-pages
   cancel-in-progress: true
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
