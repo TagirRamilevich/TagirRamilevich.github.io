@@ -155,7 +155,6 @@ Text encoding is a method of converting text data into a form that can be easily
         for line in file:
             print(line.strip())
     ```
-    
 
 **Writing Text Files:**
 
@@ -166,7 +165,6 @@ Text encoding is a method of converting text data into a form that can be easily
         file.write('This is an output file.\n')
         file.write('Writing multiple lines.')
     ```
-    
 
 **Reading CSV Files:**
 
@@ -189,7 +187,6 @@ Text encoding is a method of converting text data into a form that can be easily
     df = pd.read_csv('data/sample.csv', encoding='utf-8')
     print(df.head())
     ```
-    
 
 **Reading JSON Files:**
 
@@ -202,4 +199,221 @@ Text encoding is a method of converting text data into a form that can be easily
         data = json.load(jsonfile)
         print(data)
     ```
+    
+---
 
+#### **3.1.4 Handling Common Issues with Text Data**
+
+**Dealing with Large Files:**
+
+- Read files in chunks to avoid memory issues.
+    
+    ```python
+    def read_in_chunks(file_object, chunk_size=1024):
+        while True:
+            data = file_object.read(chunk_size)
+            if not data:
+                break
+            yield data
+
+    with open('large_file.txt', 'r', encoding='utf-8') as file:
+        for chunk in read_in_chunks(file):
+            process(chunk)
+    ```
+
+**Handling Missing or Corrupt Data:**
+
+- Use try-except blocks to handle exceptions.
+    
+    ```python
+    try:
+        with open('data/sample.txt', 'r', encoding='utf-8') as file:
+            content = file.read()
+    except UnicodeDecodeError as e:
+        print(f"Encoding error: {e}")
+    ```
+
+**Normalizing Text Data:**
+
+- Remove or replace special characters.
+    
+- Use Unicode normalization for consistent representation.
+    
+    ```python
+    import unicodedata
+
+    text = 'Café'
+    normalized_text = unicodedata.normalize('NFKD', text)
+    print(normalized_text)  # Output: 'Café'
+    ```
+
+---
+
+#### **3.2 Text Preprocessing**
+
+Text preprocessing involves transforming raw text into a clean and analyzable format. It's a critical step that significantly impacts the performance of NLP models.
+
+#### **3.2.1 Basic Preprocessing Steps**
+
+**1. Tokenization**
+
+- **Definition:** Splitting text into smaller units called tokens (e.g., words, sentences).
+- **Types of Tokenization:**
+    - **Word Tokenization:** Splitting text into words.
+    - **Sentence Tokenization:** Splitting text into sentences.
+- **Tools and Libraries:**
+    - **NLTK (Natural Language Toolkit):**
+        
+        ```python
+        import nltk
+        nltk.download('punkt')
+        from nltk.tokenize import word_tokenize, sent_tokenize
+
+        text = "Hello world! NLP is exciting."
+        word_tokens = word_tokenize(text)
+        sentence_tokens = sent_tokenize(text)
+
+        print("Word Tokens:", word_tokens)
+        print("Sentence Tokens:", sentence_tokens)
+        ```
+        
+    - **spaCy:**
+        
+        ```python
+        import spacy
+
+        nlp = spacy.load('en_core_web_sm')
+        doc = nlp("Hello world! NLP is exciting.")
+
+        word_tokens = [token.text for token in doc]
+        sentence_tokens = [sent.text for sent in doc.sents]
+
+        print("Word Tokens:", word_tokens)
+        print("Sentence Tokens:", sentence_tokens)
+        ```
+
+**2. Normalization**
+
+- **Lowercasing:**
+    
+    - Convert all text to lowercase to ensure uniformity.
+    - Example: "Hello" and "hello" are treated the same.
+    
+    ```python
+    text = text.lower()
+    ```
+    
+- **Removing Punctuation:**
+    
+    - Strip punctuation marks which may not contribute to analysis.
+    - Use regular expressions or string methods.
+    
+    ```python
+    import string
+
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    ```
+    
+- **Removing Numbers:**
+    
+    - Optionally remove numbers if they are not relevant.
+    
+    ```python
+    import re
+
+    text = re.sub(r'\d+', '', text)
+    ```
+
+**3. Stopword Removal**
+
+- **Definition:** Stopwords are common words that may not add significant meaning (e.g., "the," "is," "in").
+    
+- **Why Remove Stopwords?**
+    
+    - Reduce noise in data.
+    - Improve computational efficiency.
+- **Implementation:**
+    
+    ```python
+    from nltk.corpus import stopwords
+    nltk.download('stopwords')
+
+    stop_words = set(stopwords.words('english'))
+
+    word_tokens = word_tokenize(text)
+    filtered_tokens = [word for word in word_tokens if word not in stop_words]
+    ```
+
+**4. Stemming and Lemmatization**
+
+- **Stemming:**
+    
+    - **Definition:** Reduces words to their root form by removing suffixes.
+    - **Algorithm:** Porter Stemmer, Snowball Stemmer.
+    
+    ```python
+    from nltk.stem import PorterStemmer
+
+    stemmer = PorterStemmer()
+    stemmed_words = [stemmer.stem(word) for word in word_tokens]
+    ```
+    
+- **Lemmatization:**
+    
+    - **Definition:** Reduces words to their base or dictionary form (lemma).
+    - **Algorithm:** WordNet Lemmatizer.
+    
+    ```python
+    from nltk.stem import WordNetLemmatizer
+    nltk.download('wordnet')
+
+    lemmatizer = WordNetLemmatizer()
+    lemmatized_words = [lemmatizer.lemmatize(word) for word in word_tokens]
+    ```
+    
+- **Differences:**
+    
+    - Stemming is faster but less accurate.
+    - Lemmatization is slower but more accurate as it considers the context.
+
+**5. Handling URLs, Emails, and Mentions**
+
+- **Removal:**
+    
+    - Use regular expressions to identify and remove patterns.
+    
+    ```python
+    import re
+
+    text = re.sub(r'http\S+|www.\S+', '', text)  # Remove URLs
+    text = re.sub(r'\S+@\S+', '', text)          # Remove emails
+    text = re.sub(r'@\w+', '', text)             # Remove mentions
+    ```
+
+**6. Handling Emojis and Special Characters**
+
+- **Option 1: Remove Them**
+    
+    ```python
+    import re
+
+    emoji_pattern = re.compile(
+        "[" 
+        u"\U0001F600-\U0001F64F"  # emoticons
+        u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+        u"\U0001F680-\U0001F6FF"  # transport & map symbols
+        u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+        "]+", flags=re.UNICODE
+    )
+    text = emoji_pattern.sub(r'', text)
+    ```
+    
+- **Option 2: Convert Them to Text**
+    
+    - Use `emoji` library to demojize.
+    
+    ```python
+    import emoji
+
+    text = emoji.demojize(text)
+    ```
