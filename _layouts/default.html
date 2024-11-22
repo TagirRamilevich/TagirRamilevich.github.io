@@ -59,31 +59,27 @@
     <div class="main-container">
         <aside class="sidebar">
             <nav>
-                <h3>Информация о портале</h3>
+                <h3>Portal Information</h3>
                 <ul>
-                    <li><a href="/">Главная страница</a></li>
+                    {% for item in site.data.menu.portal %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
                 </ul>
-                <h3>Курс</h3>
+                <h3>Course</h3>
                 <ul>
-                    <li><a href="/course/plan/">План курса</a></li>
-                    <li><a href="/course/materials/">Материал</a></li>
-                    <li><a href="/course/tasks/">Задачи внутри глав</a></li>
-                    <li><a href="/course/homework/">Домашние задания</a></li>
-                    <li><a href="/course/projects/">Проекты</a></li>
+                    {% for item in site.data.menu.course %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
                 </ul>
-                <h3>Дополнительный материал</h3>
+                <h3>Additional Materials</h3>
                 <ul>
-                    <li><a href="/extra_material/research_papers/">Научные статьи</a></li>
-                    <li><a href="/extra_material/company_cases/">Кейсы компаний</a></li>
-                    <li><a href="/extra_material/practice_resources/">Ресурсы для практики</a></li>
-                    <li><a href="/extra_material/kaggle_competitions/">Разборы Kaggle соревнований</a></li>
-                    <li><a href="/extra_material/job_search_resources/">Набор для поиска работы</a></li>
-                    <li><a href="/extra_material/resume_guide/">Гайд по составлению резюме</a></li>
-                    <li><a href="/extra_material/meetups_and_conferences/">Выступления на конференциях</a></li>
-                    <li><a href="/extra_material/channels/">Медиа</a></li>
+                    {% for item in site.data.menu.extra_material %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
                 </ul>
             </nav>
         </aside>
+
         
         <div class="content">
             {{ content }}
