@@ -61,19 +61,19 @@
             <nav>
                 <h3>Portal Information</h3>
                 <ul>
-                    {% for item in site.data.menu.portal %}
+                    {% for item in site.menu.portal %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
                 <h3>Course</h3>
                 <ul>
-                    {% for item in site.data.menu.course %}
+                    {% for item in site.menu.course %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
                 <h3>Additional Materials</h3>
                 <ul>
-                    {% for item in site.data.menu.extra_material %}
+                    {% for item in site.menu.extra_material %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
