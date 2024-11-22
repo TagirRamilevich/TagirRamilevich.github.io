@@ -133,3 +133,7 @@ Text encoding is a method of converting text data into a form that can be easily
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
     ```
+
+---
+
+
