@@ -136,4 +136,70 @@ Text encoding is a method of converting text data into a form that can be easily
 
 ---
 
+#### **3.1.3 Reading and Writing Text in Python**
+
+**Reading Text Files:**
+
+- **Reading the Entire File:**
+    
+    ```python
+    with open('data/sample.txt', 'r', encoding='utf-8') as file:
+        content = file.read()
+        print(content)
+    ```
+    
+- **Reading Line by Line:**
+    
+    ```python
+    with open('data/sample.txt', 'r', encoding='utf-8') as file:
+        for line in file:
+            print(line.strip())
+    ```
+    
+
+**Writing Text Files:**
+
+- **Writing to a File:**
+    
+    ```python
+    with open('data/output.txt', 'w', encoding='utf-8') as file:
+        file.write('This is an output file.\n')
+        file.write('Writing multiple lines.')
+    ```
+    
+
+**Reading CSV Files:**
+
+- Using the `csv` module:
+    
+    ```python
+    import csv
+
+    with open('data/sample.csv', 'r', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            print(row)
+    ```
+    
+- Using `pandas`:
+    
+    ```python
+    import pandas as pd
+
+    df = pd.read_csv('data/sample.csv', encoding='utf-8')
+    print(df.head())
+    ```
+    
+
+**Reading JSON Files:**
+
+- Using the `json` module:
+    
+    ```python
+    import json
+
+    with open('data/sample.json', 'r', encoding='utf-8') as jsonfile:
+        data = json.load(jsonfile)
+        print(data)
+    ```
 
