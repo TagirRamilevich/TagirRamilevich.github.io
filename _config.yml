@@ -2,9 +2,13 @@ theme: jekyll-theme-minimal
 title: Practical NLP homepage
 description: to be added
 
+baseurl: ""
+url: "https://TagirRamilevich.github.io"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate 
 
 markdown: kramdown
 kramdown:
@@ -23,4 +27,5 @@ exclude:
 
 permalink: pretty
 
-paginate: 5
+paginate: 5 
+paginate_path: "/page:num"
