@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 5: Core NLP Tasks"
 ---
 
-# Chapter 5: Core NLP Tasks
+## Chapter 5: Core NLP Tasks
 
 ## Introduction
 
