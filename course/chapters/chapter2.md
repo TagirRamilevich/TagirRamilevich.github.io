@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 2: Introduction to NLP"
 ---
 
-# Chapter 2: Introduction to NLP
+## Chapter 2: Introduction to NLP
 
 ## Introduction
 
