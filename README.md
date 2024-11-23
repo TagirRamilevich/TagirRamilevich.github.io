@@ -21,22 +21,22 @@ Our educational platform is organized into the following sections to guide your 
 
 ### Course
 
-- **[Course Plan](/course/plan/):** Outline of the course structure and topics covered.
-- **[Materials](/course/materials/):** Access to all theoretical content and resources.
-- **[Chapter Tasks](/course/tasks/):** Interactive tasks to reinforce each chapter's concepts.
-- **[Homework](/course/homework/):** Assignments designed to apply your knowledge.
-- **[Projects](/course/projects/):** Comprehensive projects to build your portfolio.
+- **[Course Plan](https://tagirramilevich.github.io//course/plan/):** Outline of the course structure and topics covered.
+- **[Materials](https://tagirramilevich.github.io//course/materials/):** Access to all theoretical content and resources.
+- **[Chapter Tasks](https://tagirramilevich.github.io//course/tasks/):** Interactive tasks to reinforce each chapter's concepts.
+- **[Homework](https://tagirramilevich.github.io//course/homework/):** Assignments designed to apply your knowledge.
+- **[Projects](https://tagirramilevich.github.io//course/projects/):** Comprehensive projects to build your portfolio.
 
 ### Extra Material
 
-- **[Research Papers](/extra_material/research_papers/):** In-depth studies and latest research in NLP.
-- **[Company Cases](/extra_material/company_cases/):** Real-world applications and case studies from industry leaders.
-- **[Practice Resources](/extra_material/practice_resources/):** Tools and datasets to practice and enhance your skills.
-- **[Kaggle Competitions](/extra_material/kaggle_competitions/):** Information on NLP competitions to test and showcase your abilities.
-- **[Job Search Resources](/extra_material/job_search_resources/):** Guidance and resources for pursuing a career in NLP.
-- **[Resume Guide](/extra_material/resume_guide/):** Tips and templates to create a standout resume.
-- **[Meetups and Conferences](/extra_material/meetups_and_conferences/):** Information on upcoming events to network and learn from professionals.
-- **[Media](/extra_material/channels/):** Curated channels and media sources to stay informed about NLP developments.
+- **[Research Papers](https://tagirramilevich.github.io//extra_material/research_papers/):** In-depth studies and latest research in NLP.
+- **[Company Cases](https://tagirramilevich.github.io//extra_material/company_cases/):** Real-world applications and case studies from industry leaders.
+- **[Practice Resources](https://tagirramilevich.github.io//extra_material/practice_resources/):** Tools and datasets to practice and enhance your skills.
+- **[Kaggle Competitions](https://tagirramilevich.github.io//extra_material/kaggle_competitions/):** Information on NLP competitions to test and showcase your abilities.
+- **[Job Search Resources](https://tagirramilevich.github.io//extra_material/job_search_resources/):** Guidance and resources for pursuing a career in NLP.
+- **[Resume Guide](https://tagirramilevich.github.io//extra_material/resume_guide/):** Tips and templates to create a standout resume.
+- **[Meetups and Conferences](https://tagirramilevich.github.io//extra_material/meetups_and_conferences/):** Information on upcoming events to network and learn from professionals.
+- **[Media](https://tagirramilevich.github.io//extra_material/channels/):** Curated channels and media sources to stay informed about NLP developments.
 
 Each module will be systematically developed and enriched from January to November 2024, ensuring a high-quality and progressive learning experience for all users.
 
@@ -75,4 +75,3 @@ Access the project's source code and contribute to its development here:
 ## Getting Started
 
 Visit the platform at [https://tagirramilevich.github.io/](https://tagirramilevich.github.io/) to begin your journey into the fascinating field of Natural Language Processing. Explore the modules, complete the assignments, and work on projects that will equip you with the skills needed to excel in NLP.
-
