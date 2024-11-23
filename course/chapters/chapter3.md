@@ -624,4 +624,4 @@ By mastering text data handling and preprocessing, you lay a solid foundation fo
 
 ---
 
-Click **Next** to proceed to **Chapter 4: Representing Text**, where you'll learn about transforming text into numerical vectors using techniques like Bag of Words and word embeddings.
+**[Next](chapter4.md):** In the next chapter, you'll learn about transforming text into numerical vectors using techniques like Bag of Words and word embeddings.
