@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 8: Final Project"
 ---
 
-# Chapter 8: Final Project
+## Chapter 8: Final Project
 
 ## Introduction
 
