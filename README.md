@@ -22,10 +22,6 @@ Our educational platform is organized into the following sections to guide your 
 ### Course
 
 - **[Course Plan](https://tagirramilevich.github.io//course/plan/):** Outline of the course structure and topics covered.
-- **[Materials](https://tagirramilevich.github.io//course/materials/):** Access to all theoretical content and resources.
-- **[Chapter Tasks](https://tagirramilevich.github.io//course/tasks/):** Interactive tasks to reinforce each chapter's concepts.
-- **[Homework](https://tagirramilevich.github.io//course/homework/):** Assignments designed to apply your knowledge.
-- **[Projects](https://tagirramilevich.github.io//course/projects/):** Comprehensive projects to build your portfolio.
 
 ### Extra Material
 
