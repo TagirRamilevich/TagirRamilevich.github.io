@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 6: Basics of Machine Learning for NLP"
 ---
 
-# Chapter 6: Basics of Machine Learning for NLP
+## Chapter 6: Basics of Machine Learning for NLP
 
 ## Introduction
 
