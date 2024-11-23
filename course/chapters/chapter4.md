@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 4: Fundamental Methods for Representing Text"
 ---
 
-# Chapter 4: Fundamental Methods for Representing Text
+## Chapter 4: Fundamental Methods for Representing Text
 
 ## Introduction
 
