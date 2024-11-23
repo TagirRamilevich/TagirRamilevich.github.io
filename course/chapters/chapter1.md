@@ -91,4 +91,4 @@ By the end of the course, you will:
 
 ## 1.7. Let’s Get Started!
 
-Click on **[Chapter 2: Introduction to NLP](chapter2.md)** to begin your journey into the fascinating field of language processing.
+**[Next](chapter2.md):** In the next chapter, you will explore the fundamentals of language processing and begin your journey into the fascinating field of Natural Language Processing.
