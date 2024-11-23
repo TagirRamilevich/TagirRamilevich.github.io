@@ -3,11 +3,11 @@ layout: default
 title: "Chapter 1: Introduction to the Course"
 ---
 
-# Chapter 1: Introduction to the Course
+## Chapter 1: Introduction to the Course
 
 ---
 
-## Welcome to the Course: Introduction to Natural Language Processing
+## Welcome to the Course
 
 This course is your starting point for exploring the exciting world of Natural Language Processing (NLP). By the end of this journey, you'll have a solid foundation in the key concepts, techniques, and applications of NLP, as well as practical experience working on real-world tasks.
 
