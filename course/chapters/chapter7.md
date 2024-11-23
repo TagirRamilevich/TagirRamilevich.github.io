@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 7: Practical Aspects"
 ---
 
-# Chapter 7: Practical Aspects
+## Chapter 7: Practical Aspects
 
 ## Introduction
 
