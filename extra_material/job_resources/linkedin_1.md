@@ -3,6 +3,8 @@ layout: default
 title: Для чего нужен профиль в LinkedIn
 ---
 
+## What is a LinkedIn profile for
+
 LinkedIn is a global professional networking platform that offers numerous benefits across various industries, not just for IT professionals. Here's why maintaining a LinkedIn profile is advantageous:
 
 ### Networking
