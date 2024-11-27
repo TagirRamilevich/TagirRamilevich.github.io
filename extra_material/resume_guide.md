@@ -1,44 +1,52 @@
 ---
 layout: default
-title: Гайд по составлению резюме
+title: Resume Writing Guide
 ---
 
-**Как правильно составлять резюме?**
+**How to Craft an Effective Resume**
 
-Грамотно составленное резюме иногда так же важно, как и остальные навыки соискателя. Бывает так, что люди с очень крутым опытом не могут пройти первичный скрининг только потому, что они плохо подготовили CV. Это обидно, но всё поправимо. В этой статье вы узнаете, на что обращать внимание, где взять хороший шаблон и у кого попросить проверить резюме 🧘
+A well-structured resume is as crucial as your professional skills. Even candidates with impressive experience can miss opportunities due to poorly prepared CVs. This guide will help you understand key considerations, find quality templates, and seek feedback to enhance your resume.
 
-Требования зависят от того, кто вы такой и куда вы подаетесь. Например, в Великобритании, США и Канаде <a href="https://graduateland.com/article/profile-picture-cv#the%20US">не приветствуется</a> фото в резюме, а в Европе и Азии — стоит добавить. Если вы подаетесь на роль исследователя, то резюме может достигать и десяти страниц, когда золотым стандартом будет одна страница
+**Tailoring Your Resume to the Job Market**
 
-Нужно понимать, что рекрутер потратит не больше десяти секунд на ваше резюме. Если плохо его структурировать и не подсветить нужные моменты, вас могут не заметить. Да, если вы — уникальный специалист, а на рынке сейчас 5 человек помимо вас, то время на изучение резюме может вырасти, но не так сильно
+Resume requirements vary based on your profession and the region you're applying in. For instance, in the UK, USA, and Canada, including a photo in your resume is generally discouraged, whereas in Europe and Asia, it's often recommended.  Additionally, while a one-page resume is standard, academic or research positions may require more detailed CVs.
 
-**Форматирование**
+**Formatting Essentials**
 
-Отправляйте файл в PDF. Пишите на языке страны компании или на английском. Проверяйте опечатки. Делите текст на блоки и используйте bullet point’ы. Добавьте контактную информацию: почту, LinkedIn, номер телефона, GitHub, telegram.
+- **File Format**: Always send your resume as a PDF to maintain formatting consistency.
+- **Language**: Write in the language of the company's country or in English.
+- **Proofreading**: Check for typos and grammatical errors.
+- **Structure**: Divide text into clear sections and use bullet points for readability.
+- **Contact Information**: Include your email, LinkedIn profile, phone number, GitHub, and Telegram handle.
 
-**Содержание**
+**Content Guidelines**
 
-Не пишите сочинение. Избегайте аббревиатур, которые можно не понять. Используйте только факты. Описывайте задачи по формуле X-Y-Z от Google — добился [X], что измеряется в [Y], делая [Z]. Например, вместо занял 2 место на хакатоне стоит написать занял 2 место из 400 команд на хакатоне от Альфа-Банка по предсказание кредитного дефолта по данным кредитных историй.
+- **Conciseness**: Avoid lengthy narratives; be direct and to the point.
+- **Clarity**: Steer clear of ambiguous abbreviations.
+- **Achievements**: Highlight measurable outcomes using the X-Y-Z formula from Google—achieved [X], as measured by [Y], by doing [Z]. For example, instead of "placed 2nd in a hackathon," say "secured 2nd place out of 400 teams in Alpha Bank's hackathon on predicting credit defaults using credit history data."
 
-**Образование и опыт**
+**Education and Experience**
 
-Располагайте места в обратном хронологическом порядке — сначала указывается последнее место, потом — предыдущие. Если у вас мало опыта, то образование идёт перед работой. Если много, то наоборот.
+- **Order**: List entries in reverse chronological order—most recent first.
+- **Education**: If you have limited experience, place education before work experience. Include your institution, faculty, program, GPA (if strong), and relevant courses.
+- **Experience**: Mention the project or product you worked on. For example, "At OZON, contributed to the Search team." Specify your role, briefly describe the company, and provide a link to its website.
 
-В образовании стоит указать место учебы, факультет, программу. Опционально можно добавить GPA (если он хорош) и релевантные курсы, если у вас мало опыта.
+**Technical Skills**
 
-В опыте работы можно указать проект/продукт, над которым вы работали. Например, в OZON я работал в Поиске — это известное направление, которое есть во многих компаниях. Ценятся кандидаты, которые уже имеют экспертизу в этой отрасли.
+- **Technologies**: List programming languages, databases, libraries, and other tools relevant to the job. Recruiters often scan for specific keywords to match job requirements.
+- **Languages**: Indicate proficiency levels, e.g., "English—C1 or Advanced."
 
-Укажите вашу должность. Можно кратко описать, что это за компания и добавить ссылку на неё — например, Альфа-Банк — крупнейший частный банк в России. 
+**Choosing a Template**
 
-**Технологии и навыки**
+Many online resume builders allocate excessive space to decorative elements, leaving little room for substantive content. It's advisable to create your own template in Word or use a streamlined option like the [FAANGPath Simple Template](https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc), commonly used for applications to major tech companies.
 
-Стоит указать технологии, с которыми вы работали. Языки программирования, базы данных, библиотеки и всё остальное, что поможет рекрутеру понять, что вы подходите под требования заказчика. Рекрутеры по ключевым словам просматривают технологический стэк и решают, подходите вы по нему или нет. Не забудьте указать языки по типу English — C1 или Advanced.
+**Seeking Feedback**
 
-**Шаблон**
+If consulting a recruiter isn't feasible, ask colleagues in relevant forums to review your resume. While the feedback may not be professional, external perspectives can highlight areas you've overlooked. Consider visiting communities like [@sns_internships](https://t.me/sns_internships), [@analysts_hunter](https://t.me/analysts_hunter), or the chat group of the [@analyzing_analytics](https://t.me/analyzing_analytics) channel.
 
-Большая часть конструкторов в интернете оставляют катастрофически мало места на содержательную часть, сжирая всё красивыми иконками футбольных мячей, звёздочками и непонятными шкалами навыков. Лучше составьте свой шаблон в Word или используйте <a href="https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc">этот шаблон</a>, который используется при подаче в FAANG.
+For additional guidance, watch these videos on resume writing by Google:
 
-**Где проверить резюме**
+- [How to: Work at Google — Resume Tips](https://www.youtube.com/watch?v=zrXZBkYzuZo)
+- [Create Your Resume for Google: Tips and Advice](https://www.youtube.com/watch?v=BYUy1yvjHxE)
 
-Если нет возможности обратиться за консультацией к рекрутеру, можно попросить у коллег в профильных чатах посмотреть резюме. Фидбек не будет профессиональным, но со стороны люди могут увидеть то, что не замечаете вы. Можно сходить в @sns_internships, в @analysts_hunter или в чат канала @analyzing_analytics
-
-Дополнительно можно посмотреть <a href="https://www.youtube.com/watch?v=zrXZBkYzuZo">первое</a> и <a href="https://www.youtube.com/watch?v=BYUy1yvjHxE">второе</a> видео по составлению резюме от Google, пост с LinkedIn по описанию навыков по формуле X-Y-Z.
+By following these recommendations, you can craft a resume that effectively showcases your qualifications and aligns with industry standards. 
