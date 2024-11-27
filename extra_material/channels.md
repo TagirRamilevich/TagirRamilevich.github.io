@@ -37,7 +37,7 @@ Staying informed about the latest developments in Natural Language Processing (N
 
 - **[AI Для Всех](https://t.me/nn_for_science)**: A channel that explains artificial intelligence in simple terms.
 
-- **[DLStories | Нейронные сети и ИИ](https://t.me/dl_stories)**: Features the latest in artificial intelligence and neural networks, including article analyses.
+- **[DLStories: Нейронные сети и ИИ](https://t.me/dl_stories)**: Features the latest in artificial intelligence and neural networks, including article analyses.
 
 - **[Just links](https://t.me/j_links)**: An aggregator of links to articles about DL.
 
