@@ -29,8 +29,8 @@ footer, header, hgroup, menu, nav, section {
 
 .scroll-to-top {
             position: fixed;
-            bottom: 20px; /* Расположение кнопки ближе к низу */
-            right: 20px; /* Расположение кнопки справа */
+            bottom: 250px; /* Расположение кнопки ближе к низу */
+            right: 50px; /* Расположение кнопки справа */
             width: 50px; /* Размер кнопки */
             height: 50px; /* Размер кнопки */
             background-color: #007BFF; /* Цвет фона кнопки */
@@ -55,7 +55,7 @@ footer, header, hgroup, menu, nav, section {
         .scroll-to-top-text {
             position: fixed;
             bottom: 5px; /* Расположение текста под кнопкой */
-            right: 20px;
+            right: 10px;
             color: #007BFF;
             font-size: 12px;
             text-align: center;
