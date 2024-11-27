@@ -37,8 +37,11 @@
         .content {
             flex-grow: 1;
             padding: 20px;
-            background-color: #fff; 
+            background-color: #fff;
+            max-width: 100%; /* Убедитесь, что ширина не превышает границы родительского элемента */
+            box-sizing: border-box; /* Учитывайте padding при расчете ширины */
         }
+
         footer {
             background-color: #333;
             color: white;
