@@ -27,6 +27,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+.menu-title {
+    white-space: nowrap; /* Предотвращает перенос текста */
+    overflow: hidden;    /* Скрывает переполняющий текст (если необходимо) */
+    text-overflow: ellipsis; /* Добавляет многоточие, если текст не помещается (опционально) */
+}
+
 body {
   line-height: 1; }
 
