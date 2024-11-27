@@ -94,7 +94,35 @@
         </div>
 
     </div>
-    <a href="#" style="display: block; margin: 20px 0; text-align: center;">Вернуться наверх</a>
+
+    <!-- Кнопка и текст -->
+    <div class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <div class="scroll-to-top-text">наверх</div>
+
+    <script>
+        // Функция для прокрутки наверх
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Показываем/скрываем кнопку в зависимости от прокрутки
+        window.onscroll = function() {
+            var button = document.querySelector('.scroll-to-top');
+            var text = document.querySelector('.scroll-to-top-text');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.classList.remove('hide');
+                text.classList.remove('hide');
+            } else {
+                button.classList.add('hide');
+                text.classList.add('hide');
+            }
+        }
+    </script>
     <footer>
         <p>By Tagir Khairutdinov x Ilia Tarasov.</p>
         <p>© Copyright 2024.</p>
