@@ -8,6 +8,7 @@ nav ul {
 }
 
 nav ul li {
+    white-space: nowrap; /* Запретить перенос текста в пунктах меню */
     margin-bottom: 10px;
 }
 
@@ -29,6 +30,7 @@ nav ul li a:hover {
     background-color: #fff; 
     overflow-wrap: break-word; /* Перенос длинных слов */
     word-wrap: break-word; /* Для поддержки более старых браузеров */
+    white-space: normal; /* Убедитесь, что текст может переноситься */
 }
 
 p, h1, h2, h3, h4, h5, h6 {
