@@ -58,19 +58,19 @@
     <div class="main-container">
         <aside class="sidebar">
             <nav>
-                <h3>Portal Information</h3>
+                <h2>Portal Information</h2>
                 <ul>
                     {% for item in site.data.menu.portal %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
-                <h3>Course</h3>
+                <h2>Course</h2>
                 <ul>
                     {% for item in site.data.menu.course %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
-                <h3>Additional Materials</h3>
+                <h2>Additional Materials</h2>
                 <ul>
                     {% for item in site.data.menu.extra_material %}
                         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
