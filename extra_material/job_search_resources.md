@@ -3,9 +3,9 @@ layout: default
 title: Ресурсы для поиска работы
 ---
 
-В этом разделе содержатся статьи, посвященные карьерному развитию специалистов – различные гайды по поиску работы, роадмэпы, статьи, советы и рекомендации.
+In today's competitive job market, effectively showcasing your skills and experiences is crucial. Below are curated resources to assist you in crafting compelling resumes, optimizing your LinkedIn profile, and leveraging AI tools to enhance your job search.
 
-<a href="/extra_material/resume_guide/">Гайд по составлению резюме</a>  
-<a href="/extra_material/job_resources/linkedin_1/">Для чего нужен профиль в LinkedIn</a>  
-<a href="/extra_material/job_resources/linkedin_2/">Как найти работу с помощью LinkedIn</a>  
-<a href="/extra_material/job_resources/neuro_work/">Нейросети, которые помогут вам получить работу</a>  
+<a href="/extra_material/resume_guide/">Resume writing guide</a>  
+<a href="/extra_material/job_resources/linkedin_1/">What is a LinkedIn profile for/a>  
+<a href="/extra_material/job_resources/linkedin_2/">How to land a job using LinkedIn</a>  
+<a href="/extra_material/job_resources/neuro_work/">Leveraging AI in Your Job Search</a>  
