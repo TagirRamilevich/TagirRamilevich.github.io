@@ -7,25 +7,25 @@ Staying informed about the latest developments in Natural Language Processing (N
 
 ## Blogs and Newsletters
 
-- **Sebastian Ruder's Blog**: Sebastian Ruder, a renowned researcher in NLP, shares insights and analyses on various topics in his personal blog. 
+- **[Sebastian Ruder's Blog](https://www.ruder.io/)**: Sebastian Ruder, a renowned researcher in NLP, shares insights and analyses on various topics in his personal blog. 
 
-- **NLP News by Sebastian Ruder**: A regular newsletter providing analyses of advances in NLP and machine learning. 
+- **[NLP News by Sebastian Ruder](https://newsletter.ruder.io/)**: A regular newsletter providing analyses of advances in NLP and machine learning. 
 
-- **NLP Newsletter by Elvis Saravia**: Weekly summaries of the latest AI trends, research papers, tools, and best practices in NLP. 
+- **[NLP Newsletter by Elvis Saravia](https://nlp.elvissaravia.com/)**: Weekly summaries of the latest AI trends, research papers, tools, and best practices in NLP. 
 
-- **NLPlanet**: A community-focused platform offering articles, guides, and news about NLP and AI. 
+- **[NLPlanet](https://www.nlplanet.org/)**: A community-focused platform offering articles, guides, and news about NLP and AI. 
 
-- **10 Great NLP Blogs To Follow Right Now**: A compilation of notable NLP blogs and resources. 
+- **[10 Great NLP Blogs To Follow Right Now](https://www.tableau.com/learn/articles/10-online-nlp-blogs-resources)**: A compilation of notable NLP blogs and resources. 
 
 ## GitHub Repositories
 
-- **NLP Progress**: Tracks the progress in NLP, including datasets and the current state-of-the-art for common NLP tasks. 
+- **[NLP Progress](https://github.com/sebastianruder/NLP-progress)**: Tracks the progress in NLP, including datasets and the current state-of-the-art for common NLP tasks. 
 
-- **Microsoft's NLP Recipes**: Contains examples and best practices for building NLP systems, provided as Jupyter notebooks and utility functions. 
+- **[Microsoft's NLP Recipes](https://github.com/microsoft/nlp-recipes)**: Contains examples and best practices for building NLP systems, provided as Jupyter notebooks and utility functions. 
 
-- **Awesome NLP Projects**: A curated list of projects directly connected or useful for NLP. 
+- **[Awesome NLP Projects](https://github.com/keon/awesome-nlp)**: A curated list of projects directly connected or useful for NLP. 
 
-- **NLP Tutorials**: A repository offering tutorials for deep learning researchers in NLP. 
+- **[NLP Tutorials](https://github.com/graykode/nlp-tutorial)**: A repository offering tutorials for deep learning researchers in NLP. 
 
 ## Telegram Channels
 
