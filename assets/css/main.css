@@ -28,9 +28,9 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 .sidebar {
-    min-width: 255px; /* Минимальная ширина для меню */
-    max-width: 255px; /* Опционально: ограничение максимальной ширины */
-    width: 255px; /* Установите фиксированную ширину, если требуется */
+    min-width: 250px; /* Минимальная ширина для меню */
+    max-width: 250px; /* Опционально: ограничение максимальной ширины */
+    width: 250px; /* Установите фиксированную ширину, если требуется */
     flex-shrink: 0; /* Запрещает сжимать область меню */
     box-sizing: border-box; /* Учитывает padding при расчете ширины */
 }
@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 .sidebar ul li {
     white-space: nowrap; /* Запрещает перенос текста */
     overflow: hidden; /* Скрывает текст, который не помещается */
-    text-overflow: ellipsis; /* Добавляет троеточие, если текст обрезается */
+    text-overflow: auto; /* Добавляет троеточие, если текст обрезается */
 }
 
 .content {
