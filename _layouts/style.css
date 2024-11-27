@@ -26,10 +26,14 @@ nav ul li a:hover {
 .content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fff; 
     overflow-wrap: break-word; /* Перенос длинных слов */
     word-wrap: break-word; /* Для поддержки более старых браузеров */
-    overflow-x: hidden; /* Скрывает горизонтальную прокрутку */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word; /* Перенос длинных слов в текстовых элементах */
+    word-wrap: break-word; /* Для поддержки более старых браузеров */
 }
 
 /* Остальные ваши стили */
@@ -40,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden; /* Скрыть горизонтальную прокрутку для всего тела */
 }
 
 header {
