@@ -27,6 +27,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+.content {
+    word-wrap: break-word; /* Перенос длинных слов */
+    overflow-wrap: break-word; /* Современное свойство для переноса */
+}
+
 .menu-title {
     white-space: nowrap; /* Предотвращает перенос текста */
     overflow: hidden;    /* Скрывает переполняющий текст (если необходимо) */
