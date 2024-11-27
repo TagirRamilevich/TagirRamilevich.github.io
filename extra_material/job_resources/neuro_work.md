@@ -3,28 +3,26 @@ layout: default
 title: Нейросети, которые помогут вам получить работу
 ---
 
-**Нейросети, которые помогут вам получить работу**
+In today's competitive job market, leveraging artificial intelligence (AI) tools can significantly enhance your job search process. Recent research involving approximately 500,000 job seekers found that those who received feedback on grammar, writing, and word choice in their resumes had an 8% higher chance of securing employment. 
 
-Какой бы высокой квалификацией не обладал специалист, плохое резюме может сильно понизить его шансы на трудоустройство. Недавно вышло <a href="https://www.nber.org/papers/w30886">исследование</a>, которое охватило около 500.000 соискателей. Контрольная группа получала фидбек по грамматике, написанию и подбору слов в резюме и имела на 8% больше шансов в получении работы 
+Below are AI-powered tools designed to assist you in crafting resumes, preparing cover letters, and simulating interviews, thereby increasing your chances of landing your desired job.
 
-Сегодня я расскажу про инструменты, с помощью которых можно написать резюме, подготовить сопроводительное письмо или провести симуляцию собеседования. Написать содержательную часть резюме вам поможет одна из прошлых статей на портале, а с формулировкой мыслей хорошо справятся инструменты, описанные ниже 
+**Crafting Resumes and Cover Letters**
 
-**Пишем резюме и сопроводительное письмо**
+- **Rezi.ai**: This platform analyzes your background to create tailored resumes and cover letters that align your skills with specific job requirements. It also offers features to quickly draft resignation letters. 
 
-Rezi.ai на основании вашего бэкграунда составит резюме с мотивационным письмом под конкретную позицию, соотнося ваши навыки с требованиями вакансии. А ещё здесь можно за пару секунд подготовить письмо для увольнения.
+- **Kickresume**: Beyond generating CVs and cover letters, Kickresume provides feedback on your LinkedIn profile. The site hosts numerous job listings and can automatically match your skills with available positions.
 
-Kickresume не только подготовит CV с сопроводительным письмом, но и даст фидбек по вашему профилю в LinkedIn. На сайте есть много вакансий, с которыми может произойти автоматический мэтч, если у вас есть необходимые навыки.
+- **Resume Worded**: This tool offers recommendations to enhance your resume and LinkedIn profile, highlighting areas for improvement. It's advisable to review guidance on optimizing your LinkedIn profile to maximize its effectiveness.
 
-Resume Worded даст рекомендации по наполнению резюме и профиля LinkedIn, подсветив пункты, которые стоит изменить. Перед этим изучите мой пост про оформление профиля на LinkedIn.
+- **EditGPT**: Available as a browser extension for Google Chrome, EditGPT corrects textual errors directly within your browser, similar to Grammarly's functionality.
 
-EditGPT в виде расширения браузера прямо в Google Chrome исправит ошибки в тексте, как это раньше делал Grammarly.
+**Preparing for Interviews**
 
-**Готовимся к собеседованию**
+- **Interview Warmup**: Developed by Google, this tool allows you to practice answering common interview questions verbally. You can select specific job roles or industries to tailor your preparation.
 
-Interview Warmup предложит вам голосом ответить на типовые вопросы с собеседований. Можно выбрать конкретное направление работы или сферу деятельности. Разработка самого Google.
+- **InterviewGPT AI**: This platform simulates real interviews for specific positions at chosen companies. It offers options for technical interviews or cultural fit assessments, with responses provided in a chat format.
 
-InterviewGPT AI имитирует реальное собеседование на конкретную позицию в определённую компанию, которую вы сами выбираете. Есть возможность выбрать техническое собеседование или cultural fit интервью. Ответы писать нужно в чате.
+- **ChatGPT**: By prompting ChatGPT, you can simulate interview scenarios, edit your resume, or seek advice on various topics. It's particularly effective for drafting compelling cover letters.
 
-ChatGPT может играть роль собеседующего, отредактировать резюме или подсказать что-то, если его попросить. Мне особенно нравятся сопроводительные письма, которые он составляет. 
-
-И хотя для успеха при поиске работы одних только инструментов недостаточно, они позволят минимизировать риск того, что вы упустите свою возможность из-за не совсем корректных формулировок резюме 
+While these AI tools are valuable, they should complement, not replace, your comprehensive job search strategy. Utilizing them can help ensure your application materials are polished and professional, thereby enhancing your prospects in the job market. 
