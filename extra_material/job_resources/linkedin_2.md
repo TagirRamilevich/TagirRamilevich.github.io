@@ -3,38 +3,52 @@ layout: default
 title: Как найти работу с помощью LinkedIn
 ---
 
-**Как найти работу с помощью LinkedIn?**
+LinkedIn is a powerful platform for job seekers across various industries. To maximize its potential, consider the following strategies:
 
-Недавно я рассказывал, для чего любому специалисту нужен профиль на LinkedIn. Сегодня мы обсудим, как использовать его с максимальной пользой. 
+**Applying to Job Postings**
 
-Искать работу на площадке можно несколькими способами. Расскажу про каждый из них 
+LinkedIn's job search function allows you to explore opportunities worldwide, apply with a few clicks, and view the skills of other applicants. While the search feature may have limitations, the abundance of job postings makes it a valuable resource. 
 
-**Отклики на вакансии в поиске**
+**Engaging with Individual Posts**
 
-Работает почти как hh.ru: есть вакансии, которые публикуют компании. Можно искать вакансии по всему миру, откликаться в пару кликов и видеть, какие навыки есть у людей, которые подались вместе с вами. Поиск сыроват, но вакансий много 
+Many professionals seek team members through personal posts on LinkedIn, often bypassing traditional job boards. This approach enables direct communication with hiring managers, providing insights into the team and company culture. 
 
-**Отклики через посты людей**
+**Receiving Messages from Recruiters**
 
-Многие люди ищут сотрудников к себе в команду именно через LinkedIn. Зачастую такие вакансии не публикуются на площадках по поиску работы. У соискателей есть возможность напрямую пообщаться с лидами и понять, подходит ли им эта работа. Можно сразу посмотреть, с кем предстоит работать, какой у этого человека опыт и что он лайкает
+Recruiters frequently conduct proactive searches on LinkedIn, reaching out to potential candidates who may not be actively job hunting. Maintaining an updated and detailed profile increases your visibility to these recruiters. 
 
-**Сообщения от рекрутеров**
+**Networking and Posting**
 
-Рекрутеры часто осуществляют холодный поиск кандидатов через LinkedIn. Если на hh.ru можно найти резюме человека, который уже ищет работу, то здесь рекрутер может отыскать тех, кто даже не планирует менять работу, но согласен на переговоры. Я же регулярно получаю сообщения в профиль, в telegram и на почту
+Sharing posts about your job search can lead to connections with individuals who can assist or refer you to opportunities. Engaging with the LinkedIn community through comments and shares enhances your professional network. 
 
-**Написание постов и networking** 
+**Optimizing Your Profile**
 
-Часто можно увидеть, как люди пишут о том, что им нужна работа, а другие пользователи репостят эти записи и отмечают там своих знакомых, которые могут помочь. Здесь же можно найти человека, который после общения сможет порекомендовать вас в компанию
+A comprehensive profile is crucial. Ensure it includes:
 
-**Так как же заполнить свой профиль?** 
+- **Professional Photo**: Use a clear, professional image. 
 
-Нужно полностью заполнить профиль. Описание, место учебы, навыки, рекомендации — всё, что просит заполнить площадка, влияет на ваше место в выдаче. Вместо котиков придётся поставить свою фотографию, а ещё нужно будет расписать свои задачи на каждом месте работы. Желательно, чтобы были какие-то цифры — вывел продукт в 9 стран, увеличил GMV категории на 3%, отправил в чат 429 мемов (я) 
+- **Detailed Descriptions**: Clearly outline your roles and responsibilities, highlighting achievements with quantifiable metrics.
 
-Используйте LinkedIn как обычную социальную сеть. Вступайте в сообщества, добавляйте людей в контакты, комментируйте и оценивайте посты. Можно публиковать свои истории или мемы. Площадка начинает продвигать вас тогда, когда видит, что вы активны. Заполняйте профиль на английском. Здесь собираются интересные люди, которые публикуют умные вещи и смешные шутки. Там я вижу мерч, который люди получают на онбординге в Google. Там же я вижу истории людей, которых уволили спустя 20 лет в Google 
+- **Skills and Endorsements**: List relevant skills and seek endorsements from colleagues to validate your expertise. 
 
-Чем больше у вас контактов, тем больше людей сможет с вами связаться. Это не ВКонтакте и даже не Одноклассники — добавлять в контакты нужно даже тех, кого вы не знаете. Например, вы не сможете написать человеку, с которым вы не имеете контактов. Можно добавлять всех подряд и вступать в чаты по LinkedIn в telegram 
+- **Certifications and Languages**: Include any certifications and language proficiencies to showcase your qualifications.
 
-Поищите свои сертификаты с пройденных курсов. Вспомните, какие языки вы знаете и задумайтесь над своей локацией — стоило мне её сменить на London, как я резко начал получать много предложений пообщаться 
+**Active Engagement**
 
-Осмысленно подходите к заполнению своих навыков. Например, аналитику стоит указывать не PowerPoint и ответственность, а Python, Airflow или Vertica — те инструменты, которые вы используете. Просите коллег подтверждать (можно кликнуть) ваши навыки и делайте это сами. Так вы будете выше в выдаче 
+Treat LinkedIn as a professional social network:
 
-При должном подходе LinkedIn станет хорошим инструментом для нэтворкинга и поиска работы. 
+- **Join Groups**: Participate in industry-related groups to stay informed and connect with peers.
+
+- **Expand Connections**: Connect with professionals, even those you haven't met, to broaden your network.
+
+- **Engage with Content**: Like, comment, and share posts to increase your visibility.
+
+**Profile Language and Location**
+
+Completing your profile in English can enhance accessibility. Additionally, setting your location to areas where you're seeking opportunities can attract relevant job offers. 
+
+**Skill Listings**
+
+List tools and technologies pertinent to your field. For example, data analysts should mention Python, Airflow, or Vertica. Accurate skill listings improve your profile's appearance in recruiter searches. 
+
+By strategically utilizing LinkedIn, you can enhance your job search and networking efforts, leading to valuable career opportunities. 
