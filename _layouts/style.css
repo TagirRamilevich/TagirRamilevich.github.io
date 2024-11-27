@@ -24,8 +24,12 @@ nav ul li a:hover {
 
 /* Стили для контента */
 .content {
-    word-wrap: break-word; /* позволяет переносить длинные слова */
-    overflow-wrap: break-word; /* для поддержки более старых браузеров */
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-wrap: break-word; /* Перенос длинных слов */
+    word-wrap: break-word; /* Для поддержки более старых браузеров */
+    overflow-x: hidden; /* Скрывает горизонтальную прокрутку */
 }
 
 /* Остальные ваши стили */
@@ -54,6 +58,12 @@ header {
     background-color: #f4f4f4;
     padding: 20px;
     width: 250px; /* Установите ширину по вашему вкусу */
+}
+
+.sidebar h3 {
+    white-space: nowrap; /* Запретить перенос текста */
+    overflow: hidden; /* Скрыть переполнение */
+    text-overflow: ellipsis; /* Добавить многоточие, если текст длиннее контейнера */
 }
 
 footer {
