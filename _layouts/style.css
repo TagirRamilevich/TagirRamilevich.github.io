@@ -1,3 +1,12 @@
+.menu {
+    white-space: nowrap; /* предотвращает перенос текста */
+}
+
+.chapter-content {
+    word-wrap: break-word; /* позволяет переносить длинные слова */
+    overflow-wrap: break-word; /* для поддержки более старых браузеров */
+}
+
 body {
     font-family: "Gill Sans", sans-serif;
     margin: 0;
