@@ -27,6 +27,47 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+.scroll-to-top {
+        position: fixed;
+        bottom: 20px; /* Расположение кнопки ближе к низу */
+	right: 20px; /* Расположение кнопки справа */
+        width: 50px; /* Размер кнопки */
+        height: 50px; /* Размер кнопки */
+        background-color: #007BFF; /* Цвет фона кнопки */
+        color: white; /* Цвет стрелки */
+        border-radius: 5px; /* Округлые углы */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px; /* Размер стрелки */
+        cursor: pointer;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000; /* Убедимся, что кнопка поверх остальных элементов */
+        transition: background-color 0.3s ease;
+}
+
+        /* Эффект при наведении */
+.scroll-to-top:hover {
+        background-color: #0056b3;
+}
+
+        /* Стиль текста "наверх" под кнопкой */
+.scroll-to-top-text {
+        position: fixed;
+        bottom: 5px; /* Расположение текста под кнопкой */
+        right: 20px;
+        color: #007BFF;
+        font-size: 12px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-top: 5px;
+}
+
+        /* Прячем кнопку и текст при прокрутке в верх */
+.scroll-to-top.hide {
+        display: none;
+}
+
 .sidebar {
     min-width: 250px; /* Минимальная ширина для меню */
     max-width: 250px; /* Опционально: ограничение максимальной ширины */
