@@ -288,6 +288,5 @@ In this chapter, we explored the practical aspects of NLP by utilizing essential
 
 **[Next](chapter8.md):** In the next chapter, we will embark on the final project, where you will apply everything you've learned to tackle a comprehensive NLP task, culminating your learning experience.
 
-<a href="#" style="display: block; margin: 20px 0; text-align: center;">Вернуться наверх</a>
 
 
