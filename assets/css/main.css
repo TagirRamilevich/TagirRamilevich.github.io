@@ -27,6 +27,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+.sidebar ul li {
+    white-space: nowrap; /* Запрещает перенос текста */
+    overflow: hidden; /* Скрывает текст, который не помещается */
+    text-overflow: ellipsis; /* Добавляет троеточие, если текст обрезается */
+}
+
 .content {
     word-wrap: break-word; /* Перенос длинных слов */
     overflow-wrap: break-word; /* Современное свойство для переноса */
