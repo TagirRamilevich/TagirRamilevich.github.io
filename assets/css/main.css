@@ -1933,7 +1933,9 @@ button,
   position: relative;
   width: 26em; }
   #sidebar h2 {
-    font-size: 1.38889em; }
+    font-size: 1.38889em;
+    white-space: nowrap;
+  }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
@@ -1941,7 +1943,9 @@ button,
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
       margin: 0 0 3.5em 0;
-      padding: 0 0 3.5em 0; }
+      padding: 0 0 3.5em 0;
+      white-space: nowrap;
+    }
       #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
       #sidebar > .inner > *:last-child {
@@ -2018,56 +2022,76 @@ button,
           font-size: 1.5rem; }
       #sidebar.inactive {
         margin-left: -24em; } }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width:1280px) {
     #sidebar {
-      box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
-      height: 100%;
-      left: 0;
-      position: fixed;
-      top: 0;
-      z-index: 10000; }
-      #sidebar.inactive {
-        box-shadow: none; }
-      #sidebar > .inner {
-        -webkit-overflow-scrolling: touch;
-        height: 100%;
-        left: 0;
-        overflow-x: hidden;
-        overflow-y: auto;
-        position: absolute;
-        top: 0; }
-        #sidebar > .inner:after {
-          content: '';
-          display: block;
-          height: 4em;
-          width: 100%; }
-      #sidebar .toggle {
-        text-indent: 6em;
-        width: 6em; }
-        #sidebar .toggle:before {
-          font-size: 1.5rem;
-          margin-left: -0.4375em; }
-      body.is-preload #sidebar {
-        display: none; } }
-  @media screen and (max-width: 736px) {
+        box-shadow: none; /* Убираем тень для боковой панели */
+        height:100%; 
+        left:0; 
+        position:fixed; 
+        top:0; 
+        z-index:10000; 
+    }
+    
+    #sidebar.inactive {
+        box-shadow:none; 
+    }
+    
+    #sidebar > .inner {
+        -webkit-overflow-scrolling:touhch; 
+        height:auto; /* Убедитесь, что высота адаптируется */
+        left:auto; 
+        overflow-x:hidden; 
+        overflow-y:auto; 
+        position:absolute; 
+        top:auto;
+    }
+        #sidebar > .inner::after {
+        content:'';
+        display:block; 
+        height:auto; /* Убедитесь, что высота адаптируется */
+        width:auto; 
+    }
+    
     #sidebar .toggle {
-      text-indent: 7.25em;
-      width: 7.25em; }
-      #sidebar .toggle:before {
-        color: #7f888f;
-        margin-left: -0.0625em;
-        margin-top: -0.25em;
-        font-size: 1.1rem;
-        z-index: 1; }
-      #sidebar .toggle:after {
-        background: rgba(222, 225, 226, 0.75);
-        border-radius: 0.375em;
-        content: '';
-        height: 3.5em;
-        left: 1em;
-        position: absolute;
-        top: 1em;
-        width: 5em; } }
+        text-indent:auto; /* Адаптируем отступ текста */
+        width:auto; /* Адаптируем ширину */
+    }
+    
+    #sidebar .toggle::before {
+        font-size:auto; /* Адаптируем размер шрифта */
+        margin-left:auto; /* Адаптируем отступ */
+    }
+    
+    body.is-preload #sidebar {
+        display:none; 
+    }
+}
+
+@media screen and (max-width:736px) {
+    #sidebar .toggle {
+        text-indent:auto; /* Адаптируем отступ текста */
+        width:auto; /* Адаптируем ширину */
+    }
+    
+    #sidebar .toggle::before {
+        color:#7f888f; 
+        margin-left:auto; /* Адаптируем отступ */
+        margin-top:-0.25em; 
+        font-size:auto; /* Адаптируем размер шрифта */
+        z-index=1; 
+    }
+    
+    #sidebar .toggle::after {
+        background=rgba(222,225,226,0.75); 
+        border-radius=0.375em; 
+        content=''; 
+        height=3.5em; 
+        left=1em; 
+        position:absolute; 
+        top=1em; 
+        width=5em; 
+    }
+}
 
 /* Header */
 #header {
