@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Научные статьи
+title: Research papers
 ---
 In this section, we will present several easy-to-understand, readable articles from the field of NLP. The list starts with articles suitable for complete beginners, and the complexity gradually increases, but all of the articles are accessible and interesting for anyone looking to explore the field.
 
