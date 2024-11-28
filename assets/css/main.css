@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
             right: 50px; /* Расположение кнопки справа */
             width: 50px; /* Размер кнопки */
             height: 50px; /* Размер кнопки */
-            background-color: rgba(255, 255, 255, 0); /* Цвет фона кнопки */
+            background-color: #f56a6a; /* Цвет фона кнопки */
             color: white; /* Цвет стрелки */
             border-radius: 5px; /* Округлые углы */
             display: flex;
@@ -56,7 +56,7 @@ footer, header, hgroup, menu, nav, section {
             position: fixed;
             bottom: 30px; /* Расположение текста под кнопкой */
 	    right: 44px;
-            color: rgba(255, 255, 255, 0);
+            color: #f56a6a;
             font-size: 12px;
             text-align: center;
             font-family: Arial, sans-serif;
