@@ -30,7 +30,7 @@ Participants compete in building models that effectively adapt to language proce
 <a href="https://www.kaggle.com/code/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert">Deep Learning For NLP: Zero To Transformers & BERT</a>
 3. Another comprehensive guide for slightly higher-level NLP:  
 <a href="https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained">NLP 📝 GloVe, BERT, TF-IDF, LSTM... 📝 Explained</a>
-4. A guide to preprocessing text before using embeddings: 
+4. A guide to preprocessing text before using embeddings:  
 <a href="https://www.kaggle.com/code/christofhenkel/how-to-preprocessing-when-using-embeddings">How to: Preprocessing when using embeddings</a>  
 
 - There is also a great video that explains the logic behind any Kaggle project, which will help you get started with any applied task:  
