@@ -4,7 +4,7 @@ title: Research papers
 ---
 In this section, we will present several easy-to-understand, readable articles from the field of NLP. The list starts with articles suitable for complete beginners, and the complexity gradually increases, but all of the articles are accessible and interesting for anyone looking to explore the field.
 
-1. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing</a>
+1. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing</a>  
 An introductory book that covers the fundamentals of computational linguistics and speech recognition. This work serves as a great starting point for those new to NLP and computational language processing.
 2. <a href="https://www.jair.org/index.php/jair/article/view/11030">Quora Question Pairs</a>  
 This article explores the use of deep learning techniques in NLP, specifically for the task of identifying whether two questions from the Quora platform are semantically similar. A practical case study demonstrating the power of deep learning in NLP tasks.
