@@ -55,7 +55,7 @@ footer, header, hgroup, menu, nav, section {
         .scroll-to-top-text {
             position: fixed;
             bottom: 30px; /* Расположение текста под кнопкой */
-	    right: 50px;
+	    right: 48px;
             color: #fff;
             font-size: 12px;
             text-align: center;
