@@ -1,46 +1,46 @@
 ---
 layout: default
-title: Выступления на митапах и конференциях
+title: Meetups and Conferences
 ---
-Данный раздел посвящен митапам и конференциям. Вы узнаете, зачем стоит посещать подобные мероприятия, а также получите несколько записей удачных конференций и митапов.
+This section is dedicated to meetups and conferences. You will learn why it’s worth attending such events, as well as get access to several recordings of successful conferences and meetups.
 
-1.**Информация по важной для вас теме**: у всех таких митапов и конференций есть программа. Можно посмотреть список тем и сходить только на действительно интересующее вас выступление. Так вы послушаете полезную для вас лекцию от понимающего человека.
+1.**Information on a topic important to you**: All of these meetups and conferences have agendas. You can check the list of topics and attend only the presentation that truly interests you. This way, you can listen to a useful lecture from someone who truly understands the subject.
 
-2.**Расширение кругозора**: А вообще всегда может быть полезно послушать все выступления. Даже если что-то напрямую не связано с вашей работой или областью интереса, это просто может быть хорошее выступление, которое вам запомнится. А любое знание может неожиданным образом пригодиться в нашей жизни.
+2.**Expanding your horizons**:  It’s always useful to listen to all presentations. Even if something is not directly related to your work or area of interest, it could be a good talk that will stick with you. And any knowledge might unexpectedly come in handy in our lives.
 
-3.**Нетворкинг**: третий по списку, но далеко не по значению пункт. И спикеры, и слушатели таких докладов это люди, разделяющие ваши интересы, вероятно, настоящие энтузиасты своей области. Ценность новых знакомств среди таких людей или поддержания старых связей трудно переоценить.
+3.**Networking**: Third on the list, but by no means less important. Both the speakers and the attendees of these talks share your interests, and they are likely to be true enthusiasts of their fields. The value of meeting new people or maintaining old connections in such a community cannot be overstated.
 
-4.**Мерч, призы, еда, тусовки**: Часто на таких мероприятих проводятся всякие тематические конкурсы, где можно выиграть мерч или прочие призы. Многие митапы проходят достаточно неформально, в них буквально может быть "тусовочная" часть. На многих митапах вас еще бесплатно и покормят. Во многом это может быть просто хорошим способом провести вечер.
+4.**Merch, prizes, food, and parties**: Often, such events feature thematic competitions where you can win merch or other prizes. Many meetups are held in a fairly informal manner, and there may even be a "party" segment. On many meetups, you might even get free food. In many ways, it can just be a great way to spend the evening.
 
-В больших городах с крупными IT-компаниями такие мероприятия не редкость, однако даже если вы живете в маленьком городе всегда можно сходить на некоторые онлайн-митапы и онлайн-конференции или посмотреть запись, так можно даже следить за конференцией проходящей в другой стране на другом языке.
+In large cities with big IT companies, such events are quite common, but even if you live in a small town, you can always attend some online meetups and online conferences or watch the recordings. This way, you can even follow a conference held in another country in a different language.
 
-Далее мы собрали небольшую подборку записей конференций, докладов и митапов в открытом доступе, которые мы считаем удачными.
+Below, we’ve gathered a small collection of recordings from conferences, talks, and meetups in the public domain, which we believe are noteworthy.
 
 - <a href="https://aij.ru/eng/archive?albumId=2&videoId=319">An AI-driven approach to recognizing Russian sign language</a>  
-Крутой доклад от Сбера о распознавании русского жестового языка с использованием ИИ. Тема включает в себя алгоритмы компьютерного зрения, обучения с учителем и без учителя, а также применение ИИ для помощи людям с ограниченными возможностями. Доклад также переведен на английский для международной аудитории.
+An intersting talk from Sberbank on recognizing Russian Sign Language using AI. The topic covers algorithms in computer vision, supervised and unsupervised learning, and the application of AI to assist people with disabilities. The talk is also translated into English for the international audience.
 - <a href="https://www.kaggle.com/competitions/avito-duplicate-ads-detection">Practical ML 2023</a>  
-Серия докладов от Яндекса по практическому машинному обучению, включая использование ML для реальных задач, таких как поиск дубликатов в объявлениях. Этот набор докладов охватывает широкий спектр тем от подготовки данных до применения моделей на практике. Доклады 2024 года будут доступны онлайн.
+A series of talks from Yandex on practical machine learning, including the use of ML for real-world tasks such as duplicate ad detection. This set of talks covers a wide range of topics from data preparation to model application. Talks for 2024 will be available online.
 - <a href="https://www.youtube.com/playlist?list=PL0beoaW5rFR9oQg96Wu0NVsUZZpFbTzK9">Practical ML Conf 2023</a>  
-Плейлист на YouTube с видео из конференции Practical ML Conf 2023. Включает обсуждения по различным аспектам машинного обучения, от обучения моделей до реальных кейсов в индустрии.
+A YouTube playlist of videos from the Practical ML Conf 2023. It includes discussions on various aspects of machine learning, from model training to real industry case studies.
 - <a href="https://imlconf.com/?ysclid=lvd967kdei612635697">I'ML 2024</a>  
-Конференция по машинному обучению, на сайте есть записи выступлений. Конференция охватывает актуальные темы, такие как глубокое обучение, NLP и применении ML в разных отраслях. Презентации ведущих специалистов, исследователей и инженеров помогут углубить знания в области ML.
-- <a href="https://www.youtube.com/watch?v=Cho7kM2IxHk">Переводчик с языка, на котором нельзя говорить и писать</a>  
-Доклад от Сбера о создании системы для перевода жестового языка в текстовую форму. Рассматривается использование нейросетей для распознавания жестов и преобразования их в текст, что важно для людей с нарушениями слуха и речи.
+A machine learning conference with recordings of presentations available on the website. The conference covers relevant topics such as deep learning, NLP, and the application of ML in various industries. Presentations by leading specialists, researchers, and engineers will help deepen knowledge in ML.
+- <a href="https://www.youtube.com/watch?v=Cho7kM2IxHk">Translator for a language that can't be spoken or written</a>  
+A talk from Sberbank about creating a system for translating sign language into text. It covers the use of neural networks to recognize gestures and convert them into text, which is important for people with hearing and speech impairments.
 - <a href="https://github.com/soulbliss/NLP-conference-compendium?ysclid=lvbvb79r3u631484259">NLP top 10 conferences Compendium</a>  
-Это обзор работ с главных конференций по NLP. В нем представлена информация о лучших статьях и работах, которые стоит прочитать. Несмотря на то, что репозиторий больше не обновляется, он остается ценным источником для изучения современных достижений в области NLP.
-- <a href="https://www.youtube.com/watch?v=MIq8x7FlsEw&t=23759s">YaTalks 2023: Разработка и эксплуатация</a>  
-Запись 9 часов докладов от Яндекса. Конференция охватывает множество тем, включая машинное обучение, работу с большими данными и применение NLP в разных продуктах. Некоторые из докладов посвящены последним достижениям в области NLP.
+An overview of works from major NLP conferences. It presents information about the best papers and works that are worth reading. Although the repository is no longer updated, it remains a valuable resource for studying current NLP advancements.
+- <a href="https://www.youtube.com/watch?v=MIq8x7FlsEw&t=23759s">YaTalks 2023: Development and Operation</a>  
+A 9-hour recording of talks from Yandex. The conference covers many topics, including machine learning, big data processing, and the application of NLP in various products. Some talks focus on the latest advancements in NLP.
 - <a href="https://www.youtube.com/watch?v=TBxt2Bz65GM">State of the LLM Landscape</a>  
-Очень сильные и детализированные доклады от Сиолошной. Обсуждаются современные тенденции в области больших языковых моделей (LLM), их использование и развитие, включая GPT, BERT и другие трансформеры.
+Very strong and detailed talks from Sioloshnaya. The discussions cover modern trends in large language models (LLM), their use, and development, including GPT, BERT, and other transformers.
 - <a href="https://www.youtube.com/watch?v=iOrNbK2T92M">Transformer, explained in detail</a>  
-Лекция, которая объясняет структуру трансформеров, одну из самых важных архитектур в современном NLP. В докладе подробно рассмотрены такие элементы, как внимание (attention), многоголовое внимание и другие ключевые концепты, которые сделали трансформеры столь успешными в решении задач NLP.
+A lecture explaining the structure of transformers, one of the most important architectures in modern NLP. The talk goes in-depth into key concepts such as attention, multi-head attention, and other aspects that have made transformers successful in NLP tasks.
 - <a href="https://www.youtube.com/watch?v=SwfzebRc1ZU">Tinkoff AI. NLP</a>  
-Запись митапа от Тинькофф, посвященная NLP. В докладах рассматриваются темы, такие как использование NLP для анализа текстов, обработки естественного языка и применению этих технологий в банковской сфере.
+A recording of a meetup from Tinkoff dedicated to NLP. The talks cover topics such as using NLP for text analysis, natural language processing, and applying these technologies in the banking sector.
 - <a href="https://ods.ai/tracks/sibfest3-nlp?ysclid=lvd9rrj75v83063028">NLP Data Fest Siberia 3</a>  
-Записи докладов с конференции, посвященной NLP. Эта конференция собрала ведущих экспертов, обсуждавших передовые техники и исследования в области обработки естественного языка, включая нейросети и обработку больших данных. Доклады охватывают широкий спектр тем от теории до практических применений.
+Recordings from a conference dedicated to NLP. This conference gathered leading experts who discussed cutting-edge techniques and research in natural language processing, including neural networks and big data processing. The talks cover a wide range of topics, from theory to practical applications.
 - <a href="https://www.youtube.com/@PyDataTV/featured">PyData Global 2023</a>  
-Плейлист конференции PyData, включающий сессии по Python в обработке естественного языка, обучении моделей и применении их в различных индустриях.
+A playlist of the PyData conference, featuring sessions on Python in natural language processing, model training, and their application in various industries.
 - <a href="https://www.youtube.com/@HuggingFace/featured">Hugging Face Meetups</a>  
-Канал Hugging Face с митапами и воркшопами. На нем освещаются темы, связанные с трансформерами, большими языковыми моделями, NLP-приложениями и лучшими практиками работы с их библиотеками.
+The Hugging Face channel featuring meetups and workshops. It covers topics related to transformers, large language models, NLP applications, and best practices for working with their libraries.
 - <a href="https://www.youtube.com/@GoogleResearch/featured">Google AI Blog Talks</a>  
-Видео-доклады от Google Research, включая темы NLP, обработки речи, генерации текста и других технологий. Примеры задач: использование BERT, PaLM и других моделей Google для решения реальных задач.
+Video talks from Google Research, covering topics like NLP, speech processing, text generation, and other technologies. Examples of tasks include using BERT, PaLM, and other Google models to solve real-world problems.
