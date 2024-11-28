@@ -1,38 +1,37 @@
 ---
 layout: default
-title: Ресурсы для практики (Kaggle)
+title: Practice Resources (Kaggle)
 ---
-Зачем стоит пользоваться Kaggle?
+Why Should You Use Kaggle?  
+Kaggle is rightfully considered one of the best resources for learning NLP in practice. In this section, we will explain why Kaggle is so useful.
 
-Kaggle по праву считается одним из лучших ресурсов для изучения NLP на практике. В этом разделе мы расскажем вам, чем же так полезен Kaggle.
+There is an excellent article on this topic that might be helpful to read:  
+<a href="https://skillbox.ru/media/code/kaggle_dlya_nachinayushchego_data_sayentista_sorevnovatsya_nelzya_uchitsya/?ysclid=lvaazetks3682760695">Kaggle for a Beginner Data Scientist: Competing is Not the Goal, Learning Is</a>
 
-Вообще на эту тему есть отличная статья, может быть полезно ознакомиться:  
-<a href="https://skillbox.ru/media/code/kaggle_dlya_nachinayushchego_data_sayentista_sorevnovatsya_nelzya_uchitsya/?ysclid=lvaazetks3682760695">Kaggle для начинающего дата-сайентиста: соревноваться нельзя учиться</a>
+- Kaggle provides ready-made datasets and pre-set tasks, so the user only needs to start solving them. Sounds easy, right? You can find a wide variety of tasks on Kaggle, and it’s very convenient that past competitions are still available, allowing you to practice and discover new solutions for them.
 
-- Kaggle предоставляет готовые обработанные данные и уже поставленные задачи, от пользователя требуется только преступить к решению, легко, не правда ли? На Kaggle можно найти множество задач на любой вкус, очень удобно, что на платформе сохраняются уже прошедшие соревнования, на которых все еще можно попрактиковаться, и люди продолжают изобретать новые решения для таких соревнований.
-
-- Kaggle максимально приветлив к новичкам. Для многих задач есть подробные вводные, по которым можно освоить новый инструментарий, есть раздел с дискуссиями, где можно найти ответы на возникшие вопросы или подсмотреть подсказку при затруднении. Можно поставить фильтр, чтобы искать только соревнования для новичков. Например, в данный момент человек без значительного опыта может принять участие в следующих соревнованиях:
+- Kaggle is very friendly to beginners. For many tasks, there are detailed introductions that help you get acquainted with new tools. There’s a discussion section where you can find answers to your questions or get hints if you’re stuck. You can filter to search only for competitions for beginners. For example, at the moment, someone with little experience can participate in the following competitions:
 1. <a href="https://www.kaggle.com/competitions/nlp-getting-started">Natural Language Processing with Disaster Tweets</a>  
-Участникам предлагается классифицировать твиты, связанные с чрезвычайными ситуациями, как относящиеся к реальным бедствиям или нет. Данные включают тексты твитов с метками, указывающими на их связь с реальными катастрофами. Это соревнование идеально подходит для новичков в NLP и машинном обучении.
+Participants are tasked with classifying tweets related to emergencies as either relevant to real disasters or not. The data includes tweet text with labels indicating their relation to real catastrophes. This competition is perfect for beginners in NLP and machine learning
 2. <a href="https://www.kaggle.com/competitions/contradictory-my-dear-watson">Contradictory, My Dear Watson</a>  
-Задача заключается в решении проблемы распознавания текстового противоречия в многоязычном корпусе. Участники должны предсказать, являются ли два утверждения нейтральными, противоречащими или подразумевают одно другое. Это соревнование требует работы с мульти-языковыми моделями и трансформерами, такими как BERT.
+The task is to solve the problem of detecting textual contradictions in a multilingual corpus. Participants need to predict whether two statements are neutral, contradictory, or imply one another. This competition involves working with multilingual models and transformers such as BERT.
 3. <a href="https://www.kaggle.com/competitions/gemma-language-tuning">Google - Unlock Global Communication with Gemma</a>  
-Участники соревнуются в создании моделей, способных эффективно адаптироваться к задачам обработки языка с учетом специфики предметной области. Это включает тонкую настройку моделей для специализированных текстов и требований. Отличный выбор для тех, кто хочет углубиться в задачи адаптации языковых моделей.
+Participants compete in building models that effectively adapt to language processing tasks considering domain-specific contexts. This includes fine-tuning models for specialized texts and requirements. A great choice for those looking to dive deeper into the challenges of language model adaptation.
 
-- Главное запомнить следующее: мы здесь, не чтобы побеждать в соревнованиях (хотя будет здорово, если у вас вдруг получится), а чтобы учиться, чтобы уметь больше, чем умели вчера. Kaggle (и успех на соревнованиях) - не какая-то самоцель, а лишь средство осваивания NLP.
+- The most important thing to remember is: we are here not to win competitions (although it would be great if you manage to), but to learn, to become better than we were yesterday. Kaggle (and success in competitions) is not a goal in itself, but a tool for mastering NLP.
 
-- Здесь можно посмотреть лучшие задачи прошлых лет. Их уровень уже в среднем более высокий.  
-<a href="/extra_material/kaggle_competitions/">Разборы Kaggle соревнований</a>
+- Here you can look at the best tasks from previous years. Their level is generally higher.  
+<a href="/extra_material/kaggle_competitions/">Kaggle Competition Reviews</a>
 
-- Также Kaggle нельзя упрекнуть в том, что это ресурс только для практики, ведь на нем есть прекрасные теоретические гайды, с которых вполне можно начать изучение NLP даже совсем с нуля.
-1. Ваш самый первый гайд по NLP:  
+- Additionally, Kaggle should not be criticized as only a resource for practice, as it also offers excellent theoretical guides, which are perfect for starting your NLP journey from scratch:  
+1. Your very first NLP guide:  
 <a href="https://www.kaggle.com/competitions/nlp-getting-started">Getting started with NLP for absolute beginners</a>
-2. Погружение в deep learning:  
+2. Diving into deep learning:  
 <a href="https://www.kaggle.com/code/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert">Deep Learning For NLP: Zero To Transformers & BERT</a>
-3. Еще один полный гайд на NLP чуть более высокого уровня:  
+3. Another comprehensive guide for slightly higher-level NLP:  
 <a href="https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained">NLP 📝 GloVe, BERT, TF-IDF, LSTM... 📝 Explained</a>
-4. Гайд на предобработку языкового материала перед использованием в эмбеддингах:  
+4. A guide to preprocessing text before using embeddings: 
 <a href="https://www.kaggle.com/code/christofhenkel/how-to-preprocessing-when-using-embeddings">How to: Preprocessing when using embeddings</a>  
 
-- Также есть прекрасное видео, объясняющее логику подхода к любому проекту на Kaggle, оно подскажет, как можно начать работу с любой прикладной задачей.  
+- There is also a great video that explains the logic behind any Kaggle project, which will help you get started with any applied task:  
 <a href="https://www.youtube.com/watch?v=Jn8c3oe_GWU">Kaggle Live-Coding: Scoping & Starting an NLP Project | Kaggle</a>
