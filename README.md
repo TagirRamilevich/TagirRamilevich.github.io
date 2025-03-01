@@ -4,6 +4,10 @@
 
 Welcome to our comprehensive **Natural Language Processing (NLP)** educational platform, designed to provide students and professionals with extensive resources to master the field of applied NLP. Our platform offers a structured learning path through theoretical materials, practical assignments, projects, thematic articles, and a curated list of professional resources and competitions.
 
+## Getting Started
+
+Visit the platform at [https://tagirramilevich.github.io/](https://tagirramilevich.github.io/) to begin your journey into the fascinating field of Natural Language Processing. Explore the modules, complete the assignments, and work on projects that will equip you with the skills needed to excel in NLP.
+
 ## What You Will Learn
 
 Through this course, you will:
@@ -67,7 +71,3 @@ Both authors are students at the **National Research University Higher School of
 Access the project's source code and contribute to its development here:
 
 [GitHub Repository](https://github.com/TagirRamilevich/TagirRamilevich.github.io)
-
-## Getting Started
-
-Visit the platform at [https://tagirramilevich.github.io/](https://tagirramilevich.github.io/) to begin your journey into the fascinating field of Natural Language Processing. Explore the modules, complete the assignments, and work on projects that will equip you with the skills needed to excel in NLP.
