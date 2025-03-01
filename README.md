@@ -59,12 +59,9 @@ For inquiries or to contribute to the project, please reach out via:
 - **Telegram:** [@travelwithtagir](https://t.me/travelwithtagir/)
 - **GitHub Issues:** [Project Repository](https://github.com/TagirRamilevich/TagirRamilevich.github.io)
 
-## Project Authors
+## Project Author
 
-- **Tagir Khayrutdinov**
-- **Ilya Tarasov**
-
-Both authors are students at the **National Research University Higher School of Economics (HSE University)**.
+- **Tagir Khairutdinov**
 
 ## Repository Link
 
